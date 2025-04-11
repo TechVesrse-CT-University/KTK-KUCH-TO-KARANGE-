@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <div align="center">
  
   <h1>RescueGrid: Integrated Disaster Management Platform</h1>
