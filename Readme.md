@@ -346,8 +346,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 <div align="center">
   <p>Made with ❤️ by the RescueGrid Team | Committed to saving lives through technology</p>
 </div>
-#   K T K - K U C H - T O - K A R A N G E -  
- #   K T K - K U C H - T O - K A R A N G E -  
- #   K T K - K U C H - T O - K A R A N G E -  
- #   K T K - K U C H - T O - K A R A N G E -  
- 
+#
