@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <title>RescueGrid - Offline</title>
+  <style>
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fafb;
+      color: #111827;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    
+    header {
+      background-color: #fff;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 1rem;
+      text-align: center;
+    }
+    
+    .app-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    
+    .logo-symbol {
+      background-color: #DC2626;
+      color: white;
+      width: 2.5rem;
+      height: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.5rem;
+      margin-right: 0.5rem;
+    }
+    
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+      color: #4b5563;
+    }
+    
+    .offline-icon {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 2rem;
+      opacity: 0.8;
+    }
+    
+    .emergency-info {
+      margin-top: 2rem;
+      padding: 1.5rem;
+      background-color: #fee2e2;
+      border-left: 4px solid #DC2626;
+      border-radius: 0.5rem;
+      max-width: 600px;
+      text-align: left;
+    }
+    
+    .emergency-info h2 {
+      color: #DC2626;
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+    
+    .emergency-info ul {
+      padding-left: 1.5rem;
+    }
+    
+    .emergency-info li {
+      margin-bottom: 0.5rem;
+    }
+    
+    .retry-button {
+      background-color: #DC2626;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    
+    .retry-button:hover {
+      background-color: #b91c1c;
+    }
+    
+    footer {
+      background-color: #111827;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="app-logo">
+      <div class="logo-symbol">RG</div>
+      <span>RescueGrid</span>
+    </div>
+  </header>
+  
+  <main>
+    <svg class="offline-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#DC2626">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636a9 9 0 010 12.728m-3.536-3.536a5 5 0 010-7.072m-6.364 9.9a3 3 0 105.657-1.9l-1.414-1.414a3 3 0 10-4.243 4.243z" />
+      <line x1="1" y1="1" x2="23" y2="23" stroke="#DC2626" stroke-width="2"/>
+    </svg>
+    
+    <h1>You're currently offline</h1>
+    <p>We can't load the requested page because you're not connected to the internet. Some features will be limited while offline.</p>
+    
+    <button class="retry-button" onclick="window.location.reload()">
+      Try Again
+    </button>
+    
+    <div class="emergency-info">
+      <h2>Emergency Information:</h2>
+      <p>If you're experiencing an emergency and need assistance:</p>
+      <ul>
+        <li><strong>Fire Department:</strong> 101</li>
+        <li><strong>Police:</strong> 100</li>
+        <li><strong>Ambulance:</strong> 102</li>
+        <li><strong>Disaster Management:</strong> 108</li>
+      </ul>
+      <p>Some emergency features may still be available offline.</p>
+    </div>
+  </main>
+  
+  <footer>
+    &copy; 2025 RescueGrid - Emergency Response Platform
+  </footer>
+  
+  <script>
+    // Check connection status periodically
+    function checkConnection() {
+      if (navigator.onLine) {
+        document.querySelector('.retry-button').textContent = "You're back online - Reload";
+      } else {
+        document.querySelector('.retry-button').textContent = "Try Again";
+      }
+    }
+    
+    // Set up event listeners for online/offline events
+    window.addEventListener('online', checkConnection);
+    window.addEventListener('offline', checkConnection);
+    
+    // Initial check
+    checkConnection();
+  </script>
+</body>
+</html>

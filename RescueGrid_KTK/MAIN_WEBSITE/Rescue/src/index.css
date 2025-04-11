@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-emergency-red: #DC2626;
+    --color-safe-green: #10B981;
+    --color-warning-yellow: #FACC15;
+    --color-light-gray: #F9FAFB;
+    --color-charcoal-black: #111827;
+}
+
+@layer base {
+    body {
+        @apply font-sans bg-light-gray text-charcoal-black m-0 p-0;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-heading;
+    }
+}
+
+/* Custom animations and utilities */
+.loader {
+    border: 8px solid rgba(255, 255, 255, 0.2);
+    border-left-color: var(--color-safe-green);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

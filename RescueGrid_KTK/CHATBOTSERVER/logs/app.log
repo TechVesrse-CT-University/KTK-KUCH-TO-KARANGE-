@@ -1,0 +1,686 @@
+2025-04-10 22:11:15,349 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:11:15,397 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-10 22:11:15,398 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 22:11:15,400 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:11:16,690 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:11:16,708 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:11:16,710 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:11:26,313 - __main__ - INFO - Request received: GET /
+2025-04-10 22:11:26,350 - __main__ - INFO - Request completed: GET / - Status: 200 - Time: 0.037s
+2025-04-10 22:11:26,350 - werkzeug - INFO - 192.168.144.120 - - [10/Apr/2025 22:11:26] "GET / HTTP/1.1" 200 -
+2025-04-10 22:11:36,527 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:11:36,528 - __main__ - INFO - Received text input: I stuck in fire...
+2025-04-10 22:11:36,528 - langid.langid - INFO - initializing identifier
+2025-04-10 22:11:38,053 - utils.llm_handler - INFO - Enhanced context with keywords: ['fire']
+2025-04-10 22:11:40,162 - utils.llm_handler - ERROR - API error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-10 22:11:40,163 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:11:40,163 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 3.636s
+2025-04-10 22:11:40,164 - werkzeug - INFO - 192.168.144.120 - - [10/Apr/2025 22:11:40] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:12:17,639 - __main__ - INFO - Request received: GET /
+2025-04-10 22:12:17,640 - __main__ - INFO - Request completed: GET / - Status: 200 - Time: 0.001s
+2025-04-10 22:12:17,640 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:12:17] "GET / HTTP/1.1" 200 -
+2025-04-10 22:12:18,101 - __main__ - INFO - Request received: GET /favicon.ico
+2025-04-10 22:12:18,102 - __main__ - WARNING - Route not found: /favicon.ico
+2025-04-10 22:12:18,102 - __main__ - INFO - Request completed: GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-04-10 22:12:18,103 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:12:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-10 22:12:37,397 - __main__ - INFO - Request received: POST /api/voice
+2025-04-10 22:12:37,401 - __main__ - INFO - Processing audio from base64 data
+2025-04-10 22:12:37,554 - utils.speech_service - ERROR - Error processing audio file: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-04-10 22:12:37,555 - __main__ - INFO - Deleted temp file
+2025-04-10 22:12:37,555 - __main__ - WARNING - Could not understand audio
+2025-04-10 22:12:37,556 - __main__ - INFO - Request completed: POST /api/voice - Status: 400 - Time: 0.159s
+2025-04-10 22:12:37,556 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:12:37] "[31m[1mPOST /api/voice HTTP/1.1[0m" 400 -
+2025-04-10 22:12:46,181 - __main__ - INFO - Request received: POST /api/voice
+2025-04-10 22:12:46,182 - __main__ - INFO - Processing audio from base64 data
+2025-04-10 22:12:46,211 - utils.speech_service - ERROR - Error processing audio file: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-04-10 22:12:46,211 - __main__ - INFO - Deleted temp file
+2025-04-10 22:12:46,211 - __main__ - WARNING - Could not understand audio
+2025-04-10 22:12:46,212 - __main__ - INFO - Request completed: POST /api/voice - Status: 400 - Time: 0.030s
+2025-04-10 22:12:46,212 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:12:46] "[31m[1mPOST /api/voice HTTP/1.1[0m" 400 -
+2025-04-10 22:12:51,555 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:12:51,555 - __main__ - INFO - Received text input: Try me...
+2025-04-10 22:12:53,325 - utils.llm_handler - ERROR - API error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-10 22:12:53,325 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:12:53,325 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 1.771s
+2025-04-10 22:12:53,327 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:12:53] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:12:55,678 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:12:55,679 - __main__ - INFO - Received text input: Fire...
+2025-04-10 22:12:55,681 - utils.llm_handler - INFO - Enhanced context with keywords: ['fire']
+2025-04-10 22:12:56,406 - utils.llm_handler - ERROR - API error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-10 22:12:56,406 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:12:56,407 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 0.729s
+2025-04-10 22:12:56,407 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:12:56] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:12:59,875 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:12:59,876 - __main__ - INFO - Received text input: kaaklnfla...
+2025-04-10 22:12:59,878 - __main__ - INFO - Translated from fi to English
+2025-04-10 22:13:01,643 - utils.llm_handler - ERROR - API error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-10 22:13:03,839 - utils.translation_service - INFO - Successfully translated text to fi
+2025-04-10 22:13:03,841 - __main__ - INFO - Translated response from English to fi
+2025-04-10 22:13:03,841 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:13:03,843 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 3.968s
+2025-04-10 22:13:03,843 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:13:03] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:13:16,108 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:13:16,109 - __main__ - INFO - Received text input: give me some precautions...
+2025-04-10 22:13:17,888 - utils.llm_handler - ERROR - API error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-10 22:13:17,888 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:13:17,889 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 1.781s
+2025-04-10 22:13:17,889 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:13:17] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:16:33,547 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:16:33,571 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-10 22:16:33,572 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 22:16:33,573 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:16:34,660 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:16:34,671 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:16:34,673 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:18:33,177 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-10 22:18:33,305 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:18:34,697 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:18:34,718 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:18:34,721 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:18:35,846 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-10 22:18:35,984 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:18:37,285 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:18:37,298 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:18:37,300 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:18:39,396 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-10 22:18:39,500 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:18:40,768 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:18:40,782 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:18:40,785 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:18:47,021 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\test_api.py', reloading
+2025-04-10 22:18:47,142 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:18:48,540 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:18:48,554 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:18:48,558 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:18:55,801 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\test_api.py', reloading
+2025-04-10 22:18:55,890 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:18:57,136 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:18:57,152 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:18:57,155 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:19:21,298 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:19:21,325 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-10 22:19:21,325 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 22:19:21,328 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:19:22,503 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:19:22,530 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:19:22,533 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:19:34,167 - __main__ - INFO - Request received: GET /
+2025-04-10 22:19:34,195 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.028s
+2025-04-10 22:19:34,196 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:19:34] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-10 22:19:45,222 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:19:45,223 - __main__ - INFO - Received text input: I stuck on fire...
+2025-04-10 22:19:45,223 - langid.langid - INFO - initializing identifier
+2025-04-10 22:19:46,742 - utils.llm_handler - INFO - Enhanced context with keywords: ['fire']
+2025-04-10 22:19:49,056 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 22:19:49,057 - utils.llm_handler - ERROR - API error details: IndexError: list index out of range
+2025-04-10 22:19:49,057 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:19:49,058 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 3.836s
+2025-04-10 22:19:49,059 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:19:49] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:19:52,306 - __main__ - INFO - Request received: GET /
+2025-04-10 22:19:52,307 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.001s
+2025-04-10 22:19:52,308 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:19:52] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-10 22:19:57,176 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:19:57,177 - __main__ - INFO - Received text input: I stuck in fire...
+2025-04-10 22:19:57,179 - utils.llm_handler - INFO - Enhanced context with keywords: ['fire']
+2025-04-10 22:19:59,425 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 22:19:59,425 - utils.llm_handler - ERROR - API error details: IndexError: list index out of range
+2025-04-10 22:19:59,427 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:19:59,427 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 2.251s
+2025-04-10 22:19:59,427 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:19:59] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:21:13,466 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\test_api.py', reloading
+2025-04-10 22:21:13,984 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\test_api.py', reloading
+2025-04-10 22:21:14,106 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:21:15,569 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:21:15,591 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:21:15,594 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:21:15,600 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:21:16,924 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:21:16,940 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:21:16,943 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:21:37,623 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:21:37,646 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-10 22:21:37,646 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 22:21:37,647 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:21:38,907 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:21:38,925 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:21:38,928 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:22:40,866 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\test_api.py', reloading
+2025-04-10 22:22:40,958 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:22:42,051 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:22:42,066 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:22:42,069 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:25:26,406 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\test_api.py', reloading
+2025-04-10 22:25:26,510 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:25:27,799 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:25:27,813 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:25:27,816 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:25:29,918 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\test_api.py', reloading
+2025-04-10 22:25:30,030 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:25:31,345 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:25:31,364 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:25:31,367 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:25:33,462 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\test_api.py', reloading
+2025-04-10 22:25:33,566 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:25:34,906 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:25:34,924 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:25:34,927 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:25:42,185 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\test_api.py', reloading
+2025-04-10 22:25:42,279 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:25:43,551 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:25:43,564 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:25:43,566 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:25:51,674 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:25:51,704 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-10 22:25:51,704 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 22:25:51,706 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:25:52,913 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:25:52,932 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:25:52,935 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:26:24,773 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-10 22:26:24,898 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:26:26,178 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:26:26,201 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:26:26,203 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:26:45,794 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-10 22:26:45,891 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:28:37,827 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:28:37,857 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-10 22:28:37,858 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 22:28:37,860 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:28:39,062 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:28:39,079 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:28:39,083 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:28:43,674 - __main__ - INFO - Request received: GET /
+2025-04-10 22:28:43,703 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.029s
+2025-04-10 22:28:43,704 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:28:43] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-10 22:28:51,995 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:28:51,996 - __main__ - INFO - Received text input: I stuck in fire...
+2025-04-10 22:28:51,996 - langid.langid - INFO - initializing identifier
+2025-04-10 22:28:53,669 - utils.llm_handler - INFO - Enhanced context with keywords: ['fire']
+2025-04-10 22:28:56,061 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 22:28:56,062 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:28:56,063 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 4.069s
+2025-04-10 22:28:56,065 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:28:56] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:29:06,030 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:29:06,030 - __main__ - INFO - Received text input: any more previntions...
+2025-04-10 22:29:08,764 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 22:29:08,765 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:29:08,765 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 2.735s
+2025-04-10 22:29:08,766 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:29:08] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:36:03,869 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:36:03,870 - __main__ - INFO - Received text input: flood...
+2025-04-10 22:36:03,877 - utils.llm_handler - INFO - Enhanced context with keywords: ['flood']
+2025-04-10 22:36:06,452 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 22:36:06,452 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:36:06,453 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 2.585s
+2025-04-10 22:36:06,454 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:36:06] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:36:17,632 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:36:17,633 - __main__ - INFO - Received text input: more previntions?...
+2025-04-10 22:36:18,801 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 22:36:18,801 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:36:18,802 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 1.170s
+2025-04-10 22:36:18,802 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:36:18] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:36:31,608 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:36:31,608 - __main__ - INFO - Received text input: where i contact for emergency...
+2025-04-10 22:36:33,896 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 22:36:33,896 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:36:33,898 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 2.290s
+2025-04-10 22:36:33,898 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:36:33] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:36:49,925 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:36:49,926 - __main__ - INFO - Received text input: in India...
+2025-04-10 22:36:53,854 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 22:36:53,855 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:36:53,856 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 3.931s
+2025-04-10 22:36:53,856 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:36:53] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:37:06,973 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 22:37:06,974 - __main__ - INFO - Received text input: more formated...
+2025-04-10 22:37:10,838 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 22:37:10,838 - __main__ - INFO - Text response generated successfully
+2025-04-10 22:37:10,838 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 3.864s
+2025-04-10 22:37:10,839 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 22:37:10] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 22:40:23,881 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\translation_service.py', reloading
+2025-04-10 22:40:26,021 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:40:27,462 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:40:27,476 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:40:27,479 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:40:31,652 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\translation_service.py', reloading
+2025-04-10 22:40:31,754 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:59:31,401 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:59:31,434 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-10 22:59:31,435 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 22:59:31,436 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 22:59:32,767 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-10 22:59:32,786 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 22:59:32,790 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-10 22:59:46,752 - __main__ - INFO - Request received: GET /
+2025-04-10 22:59:46,834 - __main__ - INFO - Request completed: GET / - Status: 200 - Time: 0.082s
+2025-04-10 22:59:46,835 - werkzeug - INFO - 192.168.144.120 - - [10/Apr/2025 22:59:46] "GET / HTTP/1.1" 200 -
+2025-04-10 23:00:08,008 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 23:00:08,008 - __main__ - INFO - Received text input: I am in fire...
+2025-04-10 23:00:08,008 - langid.langid - INFO - initializing identifier
+2025-04-10 23:00:10,182 - __main__ - INFO - Translated from de to English
+2025-04-10 23:00:10,182 - utils.llm_handler - INFO - Enhanced context with keywords: ['fire']
+2025-04-10 23:00:12,594 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 23:00:14,656 - utils.translation_service - INFO - Successfully translated text to de
+2025-04-10 23:00:14,657 - __main__ - INFO - Translated response from English to de
+2025-04-10 23:00:14,658 - __main__ - INFO - Text response generated successfully
+2025-04-10 23:00:14,658 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 6.651s
+2025-04-10 23:00:14,659 - werkzeug - INFO - 192.168.144.120 - - [10/Apr/2025 23:00:14] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 23:00:23,457 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 23:00:23,459 - __main__ - INFO - Received text input: I stuck in fire...
+2025-04-10 23:00:23,461 - utils.llm_handler - INFO - Enhanced context with keywords: ['fire']
+2025-04-10 23:00:25,804 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 23:00:25,804 - __main__ - INFO - Text response generated successfully
+2025-04-10 23:00:25,805 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 2.347s
+2025-04-10 23:00:25,805 - werkzeug - INFO - 192.168.144.120 - - [10/Apr/2025 23:00:25] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 23:38:25,595 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 23:38:25,596 - __main__ - INFO - Received text input: hel me...
+2025-04-10 23:38:25,601 - __main__ - INFO - Translated from es to English
+2025-04-10 23:38:27,942 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 23:38:29,216 - utils.translation_service - INFO - Successfully translated text to es
+2025-04-10 23:38:29,218 - __main__ - INFO - Translated response from English to es
+2025-04-10 23:38:29,218 - __main__ - INFO - Text response generated successfully
+2025-04-10 23:38:29,219 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 3.623s
+2025-04-10 23:38:29,220 - werkzeug - INFO - 192.168.144.120 - - [10/Apr/2025 23:38:29] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 23:38:32,966 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 23:38:32,967 - __main__ - INFO - Received text input: help me...
+2025-04-10 23:38:35,209 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 23:38:35,210 - __main__ - INFO - Text response generated successfully
+2025-04-10 23:38:35,210 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 2.245s
+2025-04-10 23:38:35,211 - werkzeug - INFO - 192.168.144.120 - - [10/Apr/2025 23:38:35] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 23:38:46,721 - __main__ - INFO - Request received: POST /api/text
+2025-04-10 23:38:46,721 - __main__ - INFO - Received text input: earthquake...
+2025-04-10 23:38:46,726 - utils.llm_handler - INFO - Enhanced context with keywords: ['earthquake']
+2025-04-10 23:38:48,963 - utils.llm_handler - INFO - Successfully generated Gemini response
+2025-04-10 23:38:48,964 - __main__ - INFO - Text response generated successfully
+2025-04-10 23:38:48,965 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 2.244s
+2025-04-10 23:38:48,965 - werkzeug - INFO - 192.168.144.120 - - [10/Apr/2025 23:38:48] "POST /api/text HTTP/1.1" 200 -
+2025-04-10 23:39:07,569 - __main__ - INFO - Request received: GET /
+2025-04-10 23:39:07,570 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.001s
+2025-04-10 23:39:07,571 - werkzeug - INFO - 192.168.144.120 - - [10/Apr/2025 23:39:07] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-11 00:33:34,685 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\indian_languages.py', reloading
+2025-04-11 00:33:36,909 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 00:33:38,720 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 00:33:38,748 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 00:33:38,755 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 00:34:15,456 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\translation_service.py', reloading
+2025-04-11 00:34:15,634 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 00:34:17,279 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 00:34:17,294 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 00:34:17,298 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 00:34:38,495 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-11 00:34:38,654 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 00:34:40,384 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 00:34:40,413 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 00:34:40,418 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 00:35:21,944 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 00:35:23,124 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-11 00:35:23,125 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 00:35:23,130 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 00:35:24,618 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 00:35:24,635 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 00:35:24,638 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 00:35:29,920 - __main__ - INFO - Request received: GET /
+2025-04-11 00:35:30,046 - __main__ - INFO - Request completed: GET / - Status: 200 - Time: 0.126s
+2025-04-11 00:35:30,047 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 00:35:30] "GET / HTTP/1.1" 200 -
+2025-04-11 00:36:23,268 - __main__ - INFO - Request received: GET /
+2025-04-11 00:36:23,324 - __main__ - INFO - Request completed: GET / - Status: 200 - Time: 0.056s
+2025-04-11 00:36:23,325 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 00:36:23] "GET / HTTP/1.1" 200 -
+2025-04-11 00:36:30,632 - __main__ - INFO - Request received: GET /
+2025-04-11 00:36:30,634 - __main__ - INFO - Request completed: GET / - Status: 200 - Time: 0.002s
+2025-04-11 00:36:30,635 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 00:36:30] "GET / HTTP/1.1" 200 -
+2025-04-11 00:36:50,799 - __main__ - INFO - Request received: GET /
+2025-04-11 00:36:50,851 - __main__ - INFO - Request completed: GET / - Status: 200 - Time: 0.052s
+2025-04-11 00:36:50,851 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 00:36:50] "GET / HTTP/1.1" 200 -
+2025-04-11 00:37:41,142 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 00:37:41,282 - langid.langid - INFO - initializing identifier
+2025-04-11 00:37:46,285 - utils.translation_service - INFO - Detected Indian language: Telugu (te)
+2025-04-11 00:37:46,292 - utils.translation_service - INFO - Detected Indian language: Telugu (te)
+2025-04-11 00:37:47,969 - utils.translation_service - INFO - Successfully translated text to English (en)
+2025-04-11 00:37:47,972 - __main__ - INFO - Translated from te to English
+2025-04-11 00:37:47,973 - utils.llm_handler - INFO - Enhanced context with Indian disaster keywords: ['fire']
+2025-04-11 00:37:51,684 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 00:37:51,685 - utils.llm_handler - ERROR - API error details: IndexError: list index out of range
+2025-04-11 00:37:51,691 - utils.translation_service - INFO - Detected Indian language: English (en)
+2025-04-11 00:37:53,283 - utils.translation_service - INFO - Successfully translated text to Telugu (te)
+2025-04-11 00:37:53,286 - __main__ - INFO - Translated response from English to te
+2025-04-11 00:37:53,286 - __main__ - INFO - Text response generated successfully
+2025-04-11 00:37:53,287 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 12.146s
+2025-04-11 00:37:53,288 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 00:37:53] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 00:38:46,205 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-11 00:38:48,445 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 00:38:50,237 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 00:38:50,260 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 00:38:50,264 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 00:39:15,516 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-11 00:39:15,711 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 00:42:04,395 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 00:42:05,466 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-11 00:42:05,467 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 00:42:05,470 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 00:42:07,090 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 00:42:07,107 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 00:42:07,110 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 00:42:14,628 - __main__ - INFO - Request received: GET /
+2025-04-11 00:42:14,781 - __main__ - INFO - Request completed: GET / - Status: 200 - Time: 0.152s
+2025-04-11 00:42:14,781 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 00:42:14] "GET / HTTP/1.1" 200 -
+2025-04-11 00:42:17,643 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 00:42:17,660 - langid.langid - INFO - initializing identifier
+2025-04-11 00:42:20,874 - utils.translation_service - INFO - Detected Indian language: Marathi (mr)
+2025-04-11 00:42:20,881 - utils.translation_service - INFO - Detected Indian language: Marathi (mr)
+2025-04-11 00:42:22,142 - utils.translation_service - INFO - Successfully translated text to English (en)
+2025-04-11 00:42:22,145 - __main__ - INFO - Translated from mr to English
+2025-04-11 00:42:22,146 - utils.llm_handler - INFO - Enhanced context with Indian disaster keywords: ['fire']
+2025-04-11 00:42:23,434 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 00:42:23,435 - utils.llm_handler - ERROR - API error details: IndexError: list index out of range
+2025-04-11 00:42:23,442 - utils.translation_service - INFO - Detected Indian language: English (en)
+2025-04-11 00:42:24,573 - utils.translation_service - INFO - Successfully translated text to Marathi (mr)
+2025-04-11 00:42:24,576 - __main__ - INFO - Translated response from English to mr
+2025-04-11 00:42:24,576 - __main__ - INFO - Text response generated successfully
+2025-04-11 00:42:24,577 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 6.934s
+2025-04-11 00:42:24,578 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 00:42:24] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 00:42:44,661 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\test_api.py', reloading
+2025-04-11 00:42:46,912 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 00:42:48,711 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 00:42:48,731 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 00:42:48,734 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 00:43:36,232 - __main__ - INFO - Request received: GET /
+2025-04-11 00:43:36,290 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.058s
+2025-04-11 00:43:36,291 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 00:43:36] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-11 00:43:45,622 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 00:43:45,622 - __main__ - INFO - Received text input: Help me fire caught me...
+2025-04-11 00:43:45,623 - langid.langid - INFO - initializing identifier
+2025-04-11 00:43:50,543 - utils.translation_service - INFO - Detected Indian language: English (en)
+2025-04-11 00:43:50,544 - utils.llm_handler - INFO - Enhanced context with Indian disaster keywords: ['fire']
+2025-04-11 00:43:53,354 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 00:43:53,355 - __main__ - INFO - Text response generated successfully
+2025-04-11 00:43:53,355 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 7.733s
+2025-04-11 00:43:53,357 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 00:43:53] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 00:44:12,564 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 00:44:12,565 - __main__ - INFO - Received text input: mujhe fire se bachna ha...
+2025-04-11 00:44:12,570 - utils.translation_service - INFO - Detected Indian language: English (en)
+2025-04-11 00:44:12,572 - utils.llm_handler - INFO - Enhanced context with Indian disaster keywords: ['fire']
+2025-04-11 00:44:15,274 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 00:44:15,275 - utils.llm_handler - ERROR - API error details: IndexError: list index out of range
+2025-04-11 00:44:15,275 - __main__ - INFO - Text response generated successfully
+2025-04-11 00:44:15,276 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 2.712s
+2025-04-11 00:44:15,277 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 00:44:15] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 00:59:04,050 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\translation_service.py', reloading
+2025-04-11 00:59:06,248 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 00:59:09,998 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 00:59:10,036 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 00:59:10,039 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 00:59:41,634 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-11 00:59:41,864 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 00:59:43,557 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 00:59:43,585 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 00:59:43,606 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 00:59:44,739 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-11 00:59:44,915 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 00:59:46,545 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 00:59:46,566 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 00:59:46,570 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 01:00:18,302 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\app.py', reloading
+2025-04-11 01:00:18,452 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 01:00:20,097 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 01:00:20,119 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 01:00:20,123 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 01:00:43,252 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\app.py', reloading
+2025-04-11 01:00:43,419 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 01:00:45,089 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 01:00:45,110 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 01:00:45,113 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 01:01:40,895 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 01:01:42,077 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-11 01:01:42,078 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 01:01:42,081 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 01:01:43,589 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 01:01:43,611 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 01:01:43,616 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 01:01:47,502 - __main__ - INFO - Request received: GET /
+2025-04-11 01:01:47,623 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.121s
+2025-04-11 01:01:47,624 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 01:01:47] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-11 01:02:06,489 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 01:02:06,489 - __main__ - INFO - Received text input: help me from fire give instructions in marathi...
+2025-04-11 01:02:06,490 - langid.langid - INFO - initializing identifier
+2025-04-11 01:02:11,957 - utils.translation_service - INFO - Detected Indian language: English (en)
+2025-04-11 01:02:12,010 - utils.llm_handler - INFO - Enhanced context with Indian disaster keywords: ['fire']
+2025-04-11 01:02:15,283 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 01:02:15,284 - utils.llm_handler - ERROR - API error details: IndexError: list index out of range
+2025-04-11 01:02:15,284 - __main__ - INFO - Text response generated successfully
+2025-04-11 01:02:15,286 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 8.797s
+2025-04-11 01:02:15,288 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 01:02:15] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 01:02:25,564 - __main__ - INFO - Request received: GET /
+2025-04-11 01:02:25,564 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.000s
+2025-04-11 01:02:25,570 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 01:02:25] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-11 01:02:28,610 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 01:02:28,797 - utils.translation_service - INFO - Detected Indian language: Marathi (mr)
+2025-04-11 01:02:28,802 - utils.translation_service - INFO - Detected Indian language: Marathi (mr)
+2025-04-11 01:02:29,785 - utils.translation_service - INFO - Successfully translated text to English (en)
+2025-04-11 01:02:29,791 - __main__ - INFO - Translated from mr to English
+2025-04-11 01:02:29,792 - utils.llm_handler - INFO - Enhanced context with Indian disaster keywords: ['fire']
+2025-04-11 01:02:32,082 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 01:02:32,083 - utils.llm_handler - ERROR - API error details: IndexError: list index out of range
+2025-04-11 01:02:32,090 - utils.translation_service - INFO - Detected Indian language: English (en)
+2025-04-11 01:02:32,963 - utils.translation_service - INFO - Successfully translated text to Marathi (mr)
+2025-04-11 01:02:32,967 - __main__ - INFO - Translated response from English to mr
+2025-04-11 01:02:32,967 - __main__ - INFO - Text response generated successfully
+2025-04-11 01:02:32,969 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 4.359s
+2025-04-11 01:02:32,971 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 01:02:32] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 01:02:54,727 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 01:02:54,729 - __main__ - INFO - Received text input: help me from fire...
+2025-04-11 01:02:54,733 - utils.translation_service - INFO - Detected Indian language: English (en)
+2025-04-11 01:02:54,734 - utils.llm_handler - INFO - Enhanced context with Indian disaster keywords: ['fire']
+2025-04-11 01:02:57,994 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 01:02:57,995 - __main__ - INFO - Text response generated successfully
+2025-04-11 01:02:57,995 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 3.268s
+2025-04-11 01:02:57,996 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 01:02:57] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 01:03:20,887 - __main__ - INFO - Request received: GET /
+2025-04-11 01:03:20,889 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.002s
+2025-04-11 01:03:20,890 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 01:03:20] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-11 01:03:25,201 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 01:03:25,201 - __main__ - INFO - Received text input: help me with fire...
+2025-04-11 01:03:25,208 - utils.translation_service - INFO - Detected Indian language: English (en)
+2025-04-11 01:03:25,209 - utils.llm_handler - INFO - Enhanced context with Indian disaster keywords: ['fire']
+2025-04-11 01:03:27,991 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 01:03:27,992 - __main__ - INFO - Text response generated successfully
+2025-04-11 01:03:27,993 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 2.792s
+2025-04-11 01:03:27,993 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 01:03:27] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 01:04:10,123 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 01:04:11,236 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-11 01:04:11,237 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 01:04:11,240 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 01:04:12,719 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 01:04:12,739 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 01:04:12,742 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 01:04:15,933 - __main__ - INFO - Request received: GET /
+2025-04-11 01:04:16,003 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.070s
+2025-04-11 01:04:16,003 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 01:04:16] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-11 01:04:23,617 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 01:04:23,618 - __main__ - INFO - Received text input: help me with fire...
+2025-04-11 01:04:23,619 - langid.langid - INFO - initializing identifier
+2025-04-11 01:04:28,318 - utils.translation_service - INFO - Detected Indian language: English (en)
+2025-04-11 01:04:28,318 - utils.llm_handler - INFO - Enhanced context with Indian disaster keywords: ['fire']
+2025-04-11 01:04:30,975 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 01:04:30,976 - __main__ - INFO - Text response generated successfully
+2025-04-11 01:04:30,976 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 7.359s
+2025-04-11 01:04:30,979 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 01:04:30] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 01:04:56,591 - __main__ - INFO - Request received: GET /
+2025-04-11 01:04:56,593 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.001s
+2025-04-11 01:04:56,593 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 01:04:56] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-11 01:05:04,452 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 01:05:04,453 - __main__ - INFO - Received text input: prevent me from earthquake...
+2025-04-11 01:05:04,458 - utils.translation_service - INFO - Detected Indian language: English (en)
+2025-04-11 01:05:04,458 - utils.llm_handler - INFO - Enhanced context with Indian disaster keywords: ['earthquake']
+2025-04-11 01:05:07,738 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 01:05:07,739 - __main__ - INFO - Text response generated successfully
+2025-04-11 01:05:07,740 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 3.288s
+2025-04-11 01:05:07,741 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 01:05:07] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 01:05:52,292 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-11 01:05:54,548 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 01:05:56,332 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 01:05:56,351 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 01:05:56,356 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 01:24:25,254 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 01:24:26,204 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-11 01:24:26,205 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 01:24:26,208 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 01:24:28,147 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 01:24:28,186 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 01:24:28,194 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 01:24:29,795 - __main__ - INFO - Request received: GET /
+2025-04-11 01:24:29,925 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.131s
+2025-04-11 01:24:29,925 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 01:24:29] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-11 01:24:35,089 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 01:24:35,091 - __main__ - INFO - Received text input: help me from fire...
+2025-04-11 01:24:35,092 - langid.langid - INFO - initializing identifier
+2025-04-11 01:24:39,692 - utils.translation_service - INFO - Detected Indian language: English (en)
+2025-04-11 01:24:39,693 - utils.llm_handler - INFO - Enhanced context with Indian disaster keywords: ['fire']
+2025-04-11 01:24:42,603 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 01:24:42,604 - __main__ - INFO - Text response generated successfully
+2025-04-11 01:24:42,605 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 7.516s
+2025-04-11 01:24:42,608 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 01:24:42] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 02:06:31,719 - __main__ - INFO - Request received: GET /
+2025-04-11 02:06:31,721 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.002s
+2025-04-11 02:06:31,722 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 02:06:31] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-11 05:52:59,456 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-11 05:53:01,919 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 05:53:03,843 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 05:53:03,899 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 05:53:03,904 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 07:17:57,611 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 07:17:58,858 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-11 07:17:58,859 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 07:17:58,861 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 07:18:00,736 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 07:18:00,775 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 07:18:00,781 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 07:18:07,662 - __main__ - INFO - Request received: GET /
+2025-04-11 07:18:07,802 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.140s
+2025-04-11 07:18:07,803 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 07:18:07] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-11 07:18:20,053 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 07:18:20,054 - __main__ - INFO - Received text input: help me...
+2025-04-11 07:18:20,054 - langid.langid - INFO - initializing identifier
+2025-04-11 07:18:24,882 - utils.translation_service - INFO - Detected Indian language: English (en)
+2025-04-11 07:18:27,507 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 07:18:27,507 - __main__ - INFO - Text response generated successfully
+2025-04-11 07:18:27,508 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 7.455s
+2025-04-11 07:18:27,510 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 07:18:27] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 07:18:33,033 - __main__ - INFO - Request received: GET /
+2025-04-11 07:18:33,034 - __main__ - INFO - Request completed: GET / - Status: 304 - Time: 0.001s
+2025-04-11 07:18:33,036 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 07:18:33] "[36mGET / HTTP/1.1[0m" 304 -
+2025-04-11 07:18:43,555 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 07:18:43,556 - __main__ - INFO - Received text input: Help me i stuck in fire...
+2025-04-11 07:18:43,561 - utils.translation_service - WARNING - Detected non-Indian language: it. Defaulting to Hindi
+2025-04-11 07:18:43,566 - utils.translation_service - WARNING - Detected non-Indian language: it. Defaulting to Hindi
+2025-04-11 07:18:44,696 - utils.translation_service - INFO - Successfully translated text to English (en)
+2025-04-11 07:18:44,699 - __main__ - INFO - Translated from hi to English
+2025-04-11 07:18:44,699 - utils.llm_handler - INFO - Enhanced context with Indian disaster keywords: ['fire']
+2025-04-11 07:18:47,559 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 07:18:47,565 - utils.translation_service - INFO - Detected Indian language: Hindi (hi)
+2025-04-11 07:18:47,566 - __main__ - INFO - Translated response from English to hi
+2025-04-11 07:18:47,566 - __main__ - INFO - Text response generated successfully
+2025-04-11 07:18:47,567 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 4.012s
+2025-04-11 07:18:47,568 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 07:18:47] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 07:19:18,429 - __main__ - INFO - Request received: POST /api/text
+2025-04-11 07:19:18,429 - __main__ - INFO - Received text input: Give in English...
+2025-04-11 07:19:18,434 - utils.translation_service - WARNING - Detected non-Indian language: it. Defaulting to Hindi
+2025-04-11 07:19:18,438 - utils.translation_service - WARNING - Detected non-Indian language: it. Defaulting to Hindi
+2025-04-11 07:19:19,324 - utils.translation_service - INFO - Successfully translated text to English (en)
+2025-04-11 07:19:19,327 - __main__ - INFO - Translated from hi to English
+2025-04-11 07:19:23,402 - utils.llm_handler - INFO - Successfully generated Gemini response for Indian context
+2025-04-11 07:19:23,410 - utils.translation_service - INFO - Detected Indian language: English (en)
+2025-04-11 07:19:24,650 - utils.translation_service - INFO - Successfully translated text to Hindi (hi)
+2025-04-11 07:19:24,653 - __main__ - INFO - Translated response from English to hi
+2025-04-11 07:19:24,653 - __main__ - INFO - Text response generated successfully
+2025-04-11 07:19:24,654 - __main__ - INFO - Request completed: POST /api/text - Status: 200 - Time: 6.226s
+2025-04-11 07:19:24,655 - werkzeug - INFO - 192.168.144.120 - - [11/Apr/2025 07:19:24] "POST /api/text HTTP/1.1" 200 -
+2025-04-11 07:22:12,908 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-11 07:22:15,069 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 07:22:17,067 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 07:22:17,090 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 07:22:17,096 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 07:24:39,655 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\llm_handler.py', reloading
+2025-04-11 07:24:39,797 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 07:24:41,593 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 07:24:41,610 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 07:24:41,614 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 08:30:35,587 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\speech_service.py', reloading
+2025-04-11 08:30:35,736 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 08:30:37,494 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 08:30:37,514 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 08:30:37,518 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 08:31:15,498 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\speech_service.py', reloading
+2025-04-11 08:31:15,613 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 08:31:16,919 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 08:31:16,936 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 08:31:16,939 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 08:31:21,100 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\speech_service.py', reloading
+2025-04-11 08:31:21,214 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 08:31:22,566 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 08:31:22,589 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 08:31:22,592 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 08:31:54,926 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 08:31:55,984 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.120:5000
+2025-04-11 08:31:55,984 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 08:31:55,985 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 08:31:57,191 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 08:31:57,212 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 08:31:57,216 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 08:32:55,906 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\speech_service.py', reloading
+2025-04-11 08:32:56,029 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 08:32:57,493 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 08:32:57,511 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 08:32:57,516 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 08:34:19,265 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\speech_service.py', reloading
+2025-04-11 08:34:19,446 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 08:34:21,237 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 08:34:21,259 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 08:34:21,264 - werkzeug - INFO -  * Debugger PIN: 386-528-741
+2025-04-11 08:39:24,738 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ACER\\Desktop\\Disaster\\utils\\speech_service.py', reloading
+2025-04-11 08:39:24,914 - werkzeug - INFO -  * Restarting with stat
+2025-04-11 08:39:26,551 - __main__ - INFO - Starting server on 0.0.0.0:5000 (debug=True)
+2025-04-11 08:39:26,569 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 08:39:26,574 - werkzeug - INFO -  * Debugger PIN: 386-528-741

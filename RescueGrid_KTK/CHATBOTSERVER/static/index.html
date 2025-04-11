@@ -1,0 +1,977 @@
+
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RescueX - Disaster Management</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --emergency-red: #DC2626;
+            --safe-green: #10B981;
+            --warning-yellow: #FACC15;
+            --light-gray: #F9FAFB;
+            --charcoal-black: #111827;
+            
+            --bg-primary: #F9FAFB;
+            --bg-secondary: #ffffff;
+            --text-primary: #111827;
+            --text-secondary: #4B5563;
+            --border-color: #E5E7EB;
+            --shadow-color: rgba(0, 0, 0, 0.08);
+            --accent-color: var(--emergency-red);
+        }
+
+        .dark {
+            --bg-primary: #111827;
+            --bg-secondary: #1F2937;
+            --text-primary: #F9FAFB;
+            --text-secondary: #D1D5DB;
+            --border-color: #374151;
+            --shadow-color: rgba(0, 0, 0, 0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .app-container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Header Styles */
+        .app-header {
+            background-color: var(--emergency-red);
+            padding: 1rem;
+            color: white;
+            position: relative;
+            box-shadow: 0 4px 20px rgba(220, 38, 38, 0.25);
+            z-index: 10;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1rem;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .logo-icon {
+            animation: pulse 2s infinite alternate;
+        }
+
+        .app-controls {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .app-controls button {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .app-controls button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.05);
+        }
+
+        .status-bar {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .status-pill {
+            padding: 5px 15px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .status-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--safe-green);
+        }
+
+        /* Main Content Styles */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            padding: 0 1rem;
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        /* Chat Container */
+        .chat-wrapper {
+            flex: 1;
+            overflow: hidden;
+            padding: 1rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .info-card {
+            background: linear-gradient(135deg, #FFF5F5, #FEE2E2);
+            border-radius: 16px;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            border-left: 4px solid var(--emergency-red);
+            box-shadow: 0 4px 12px rgba(220, 38, 38, 0.1);
+        }
+        
+        .dark .info-card {
+            background: linear-gradient(135deg, rgba(220, 38, 38, 0.2), rgba(220, 38, 38, 0.1));
+        }
+
+        .info-card h3 {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--emergency-red);
+        }
+
+        .info-card p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        .message-divider {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-secondary);
+            margin: 1rem 0;
+            font-size: 0.8rem;
+        }
+
+        .message-divider::before,
+        .message-divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background-color: var(--border-color);
+        }
+
+        .chat-container {
+            flex: 1;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding-right: 0.5rem;
+            scroll-behavior: smooth;
+        }
+
+        .chat-container::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        .chat-container::-webkit-scrollbar-track {
+            background: var(--bg-primary);
+        }
+
+        .chat-container::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 10px;
+        }
+
+        .message {
+            display: flex;
+            flex-direction: column;
+            max-width: 85%;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message.user {
+            align-self: flex-end;
+        }
+
+        .message-content {
+            padding: 0.8rem 1rem;
+            border-radius: 18px;
+            position: relative;
+            color: var(--text-primary);
+            box-shadow: 0 2px 5px var(--shadow-color);
+        }
+
+        .user .message-content {
+            background-color: var(--emergency-red);
+            border-bottom-right-radius: 4px;
+            color: white;
+        }
+
+        .assistant .message-content {
+            background-color: var(--bg-secondary);
+            border-bottom-left-radius: 4px;
+        }
+
+        .message-meta {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.7rem;
+            margin-top: 5px;
+            color: var(--text-secondary);
+            padding: 0 5px;
+        }
+
+        .user .message-meta {
+            justify-content: flex-end;
+        }
+
+        .message-time {
+            opacity: 0.8;
+        }
+
+        .language-tag {
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background-color: rgba(16, 185, 129, 0.2);
+            color: var(--safe-green);
+        }
+
+        .dark .language-tag {
+            background-color: rgba(16, 185, 129, 0.3);
+        }
+
+        .typing-indicator {
+            display: flex;
+            padding: 10px;
+            gap: 5px;
+            align-items: center;
+        }
+
+        .typing-indicator span {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--text-secondary);
+            animation: typing 1.5s infinite;
+            opacity: 0.6;
+        }
+
+        .typing-indicator span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .typing-indicator span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes typing {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+        }
+
+        /* Input Area */
+        .input-area {
+            margin: 1rem 0;
+            background-color: var(--bg-secondary);
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            padding: 0.4rem;
+            box-shadow: 0 4px 20px var(--shadow-color);
+            border: 1px solid var(--border-color);
+            position: relative;
+            z-index: 2;
+            transition: all 0.3s ease;
+        }
+
+        .input-area:focus-within {
+            box-shadow: 0 4px 30px var(--shadow-color);
+            border-color: var(--emergency-red);
+        }
+
+        .input-area input {
+            flex: 1;
+            padding: 0.8rem 1rem;
+            border: none;
+            background: transparent;
+            font-family: 'Outfit', sans-serif;
+            color: var(--text-primary);
+            font-size: 1rem;
+            outline: none;
+        }
+
+        .input-area input::placeholder {
+            color: var(--text-secondary);
+            opacity: 0.7;
+        }
+
+        .input-actions {
+            display: flex;
+            gap: 5px;
+            padding-right: 8px;
+        }
+
+        .input-actions button {
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: white;
+            font-size: 1rem;
+            transition: all 0.2s;
+        }
+
+        button.record-btn {
+            background-color: var(--emergency-red);
+        }
+
+        button.send-btn {
+            background-color: var(--safe-green);
+        }
+
+        .input-actions button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .input-actions button:active {
+            transform: scale(0.95);
+        }
+
+        /* Recording Animation */
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.6);
+                transform: scale(1);
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(220, 38, 38, 0);
+                transform: scale(1.05);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+                transform: scale(1);
+            }
+        }
+
+        .record-btn.recording {
+            background-color: var(--warning-yellow) !important;
+            animation: pulse 1.5s infinite;
+            color: var(--charcoal-black) !important;
+        }
+
+        /* Voice Visualization */
+        .voice-visualization {
+            display: none;
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            right: 0;
+            background-color: var(--bg-secondary);
+            border-radius: 24px;
+            padding: 1.5rem;
+            margin-bottom: 10px;
+            box-shadow: 0 -5px 20px var(--shadow-color);
+            border: 1px solid var(--border-color);
+            animation: slideUp 0.3s ease-out;
+        }
+
+        .voice-visualization.active {
+            display: block;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .visualization-bars {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 50px;
+        }
+
+        .visualization-bar {
+            width: 6px;
+            background-color: var(--emergency-red);
+            border-radius: 3px;
+        }
+
+        .visualization-status {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .visualization-timer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            margin-top: 10px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .timer-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--emergency-red);
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        /* Footer */
+        .app-footer {
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            border-top: 1px solid var(--border-color);
+            background-color: var(--bg-secondary);
+        }
+
+        /* Mobile Optimization */
+        @media (max-width: 768px) {
+            .app-header {
+                padding: 0.8rem;
+            }
+            
+            .logo {
+                font-size: 1.5rem;
+            }
+            
+            .main-content {
+                padding: 0 0.8rem;
+            }
+            
+            .message {
+                max-width: 90%;
+            }
+        }
+
+        /* Utility Classes */
+        .hidden {
+            display: none !important;
+        }
+
+        .alert-badge {
+            position: relative;
+        }
+
+        .alert-badge::after {
+            content: '';
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background-color: var(--warning-yellow);
+            border-radius: 50%;
+            top: 0;
+            right: 0;
+            border: 2px solid var(--emergency-red);
+        }
+
+        /* Dark Mode Toggle */
+        .theme-switch {
+            position: relative;
+            width: 60px;
+            height: 30px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .theme-switch::after {
+            content: '☀️';
+            position: absolute;
+            top: 2.5px;
+            left: 5px;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            transition: transform 0.3s ease;
+        }
+
+        .dark .theme-switch::after {
+            content: '🌙';
+            transform: translateX(30px);
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo-container">
+                <div class="logo">
+                    <span class="logo-icon">🚨</span> RescueX
+                </div>
+                <div class="app-controls">
+                    <div class="theme-switch" id="themeToggle"></div>
+                    <button id="infoButton" aria-label="Information">
+                        <i class="fas fa-info"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="status-bar">
+                <div class="status-pill">
+                    <span class="status-indicator"></span>
+                    <span>Disaster Management Assistant</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="chat-wrapper">
+                <div class="info-card">
+                    <h3><i class="fas fa-shield-alt"></i> Stay Safe with RescueX</h3>
+                    <p>Ask questions about disaster preparedness, emergency procedures, or evacuation plans. I can respond in multiple languages.</p>
+                </div>
+
+                <div class="chat-container" id="chatContainer">
+                    <div class="message assistant">
+                        <div class="message-content">
+                            Hey there! 👋 I'm RescueX, your disaster management assistant. How can I help you today? Ask me about earthquakes, floods, fires, or any emergency procedures!
+                        </div>
+                        <div class="message-meta">
+                            <span class="message-time">Just now</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Voice Visualization -->
+            <div class="voice-visualization" id="voiceVisualization">
+                <div class="visualization-bars" id="visualizationBars">
+                    <div class="visualization-bar" style="height: 20%"></div>
+                    <div class="visualization-bar" style="height: 40%"></div>
+                    <div class="visualization-bar" style="height: 70%"></div>
+                    <div class="visualization-bar" style="height: 90%"></div>
+                    <div class="visualization-bar" style="height: 50%"></div>
+                    <div class="visualization-bar" style="height: 20%"></div>
+                    <div class="visualization-bar" style="height: 60%"></div>
+                    <div class="visualization-bar" style="height: 30%"></div>
+                    <div class="visualization-bar" style="height: 80%"></div>
+                    <div class="visualization-bar" style="height: 40%"></div>
+                    <div class="visualization-bar" style="height: 50%"></div>
+                    <div class="visualization-bar" style="height: 20%"></div>
+                </div>
+                <div class="visualization-status">Listening...</div>
+                <div class="visualization-timer">
+                    <span class="timer-dot"></span>
+                    <span id="recordingTime">00:00</span>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <input type="text" id="messageInput" placeholder="Ask about disaster preparedness..." autocomplete="off">
+                <div class="input-actions">
+                    <button class="record-btn" id="recordButton" aria-label="Record voice">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                    <button class="send-btn" id="sendButton" aria-label="Send message">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <span>RescueX - Emergency Disaster Management Assistant | Team KTK</span>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Elements
+            const chatContainer = document.getElementById('chatContainer');
+            const messageInput = document.getElementById('messageInput');
+            const sendButton = document.getElementById('sendButton');
+            const recordButton = document.getElementById('recordButton');
+            const voiceVisualization = document.getElementById('voiceVisualization');
+            const visualizationBars = document.getElementById('visualizationBars').children;
+            const recordingTime = document.getElementById('recordingTime');
+            const themeToggle = document.getElementById('themeToggle');
+            
+            // Variables
+            let isRecording = false;
+            let mediaRecorder;
+            let audioChunks = [];
+            let recordingInterval;
+            let recordingSeconds = 0;
+            let recordingStartTime;
+
+            // Initialize theme
+            const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (prefersDarkMode) {
+                document.documentElement.classList.add('dark');
+            }
+
+            // Theme toggle
+            themeToggle.addEventListener('click', () => {
+                document.documentElement.classList.toggle('dark');
+            });
+
+            // Utility functions
+            function getCurrentTime() {
+                const now = new Date();
+                let hours = now.getHours();
+                const minutes = now.getMinutes();
+                const ampm = hours >= 12 ? 'PM' : 'AM';
+                hours = hours % 12;
+                hours = hours ? hours : 12;
+                return `${hours}:${minutes < 10 ? '0' + minutes : minutes} ${ampm}`;
+            }
+
+            function updateRecordingTime() {
+                const elapsedSeconds = Math.floor((Date.now() - recordingStartTime) / 1000);
+                const minutes = Math.floor(elapsedSeconds / 60);
+                const seconds = elapsedSeconds % 60;
+                recordingTime.textContent = `${minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+            }
+
+            function animateVoiceBars() {
+                for (let bar of visualizationBars) {
+                    const height = Math.floor(Math.random() * 80) + 20;
+                    bar.style.height = `${height}%`;
+                }
+            }
+
+            // Send message
+            function sendMessage() {
+                const message = messageInput.value.trim();
+                if (message) {
+                    addMessage(message, true);
+                    messageInput.value = '';
+                    sendTextToBackend(message);
+                }
+            }
+
+            // Add message to chat
+            function addMessage(message, isUser, language = '') {
+                const messageDiv = document.createElement('div');
+                messageDiv.className = `message ${isUser ? 'user' : 'assistant'}`;
+
+                const messageContent = document.createElement('div');
+                messageContent.className = 'message-content';
+                messageContent.textContent = message;
+
+                const messageMeta = document.createElement('div');
+                messageMeta.className = 'message-meta';
+
+                const messageTime = document.createElement('span');
+                messageTime.className = 'message-time';
+                messageTime.textContent = getCurrentTime();
+                messageMeta.appendChild(messageTime);
+
+                if (language && language !== 'en') {
+                    const languageTag = document.createElement('span');
+                    languageTag.className = 'language-tag';
+                    languageTag.textContent = language;
+                    messageMeta.appendChild(languageTag);
+                }
+
+                messageDiv.appendChild(messageContent);
+                messageDiv.appendChild(messageMeta);
+
+                chatContainer.appendChild(messageDiv);
+                scrollToBottom();
+            }
+
+            // Add typing indicator
+            function addTypingIndicator() {
+                const typingDiv = document.createElement('div');
+                typingDiv.className = 'message assistant';
+                typingDiv.id = 'typingIndicator';
+
+                const typingContent = document.createElement('div');
+                typingContent.className = 'message-content typing-indicator';
+                
+                for (let i = 0; i < 3; i++) {
+                    const dot = document.createElement('span');
+                    typingContent.appendChild(dot);
+                }
+
+                typingDiv.appendChild(typingContent);
+                chatContainer.appendChild(typingDiv);
+                scrollToBottom();
+            }
+
+            // Remove typing indicator
+            function removeTypingIndicator() {
+                const typingIndicator = document.getElementById('typingIndicator');
+                if (typingIndicator) {
+                    typingIndicator.remove();
+                }
+            }
+
+            // Scroll to bottom of chat
+            function scrollToBottom() {
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+            }
+
+            // Start recording
+            async function startRecording() {
+                try {
+                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    isRecording = true;
+                    recordButton.classList.add('recording');
+                    recordButton.innerHTML = '<i class="fas fa-stop"></i>';
+                    
+                    // Show visualization
+                    voiceVisualization.classList.add('active');
+                    
+                    // Start animation intervals
+                    const barAnimation = setInterval(animateVoiceBars, 100);
+                    
+                    // Start timer
+                    recordingStartTime = Date.now();
+                    recordingInterval = setInterval(updateRecordingTime, 1000);
+                    
+                    mediaRecorder = new MediaRecorder(stream);
+                    audioChunks = [];
+                    
+                    mediaRecorder.addEventListener('dataavailable', event => {
+                        audioChunks.push(event.data);
+                    });
+                    
+                    mediaRecorder.addEventListener('stop', () => {
+                        clearInterval(barAnimation);
+                        clearInterval(recordingInterval);
+                        
+                        const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                        sendAudioToBackend(audioBlob);
+                        
+                        // Stop all tracks
+                        stream.getTracks().forEach(track => track.stop());
+                        
+                        // Hide visualization
+                        voiceVisualization.classList.remove('active');
+                    });
+                    
+                    mediaRecorder.start();
+                    
+                    // Auto stop after 15 seconds
+                    setTimeout(() => {
+                        if (isRecording) {
+                            stopRecording();
+                        }
+                    }, 15000);
+                    
+                } catch (error) {
+                    console.error('Error accessing microphone:', error);
+                    alert('Could not access microphone. Please check permissions.');
+                }
+            }
+
+            // Stop recording
+            function stopRecording() {
+                if (mediaRecorder && isRecording) {
+                    mediaRecorder.stop();
+                    isRecording = false;
+                    recordButton.classList.remove('recording');
+                    recordButton.innerHTML = '<i class="fas fa-microphone"></i>';
+                    addMessage('Processing your voice message...', true);
+                }
+            }
+
+            // Send text to backend
+            function sendTextToBackend(text) {
+                // Show typing indicator while waiting for response
+                addTypingIndicator();
+                
+                fetch('/api/text', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ text }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    removeTypingIndicator();
+                    
+                    if (data.success) {
+                        addMessage(data.response, false, data.language);
+                        
+                        if (data.audio) {
+                            playAudio(data.audio);
+                        }
+                    } else {
+                        addMessage(`Error: ${data.error}`, false);
+                    }
+                })
+                .catch(error => {
+                    removeTypingIndicator();
+                    console.error('Error:', error);
+                    addMessage('Sorry, there was a problem connecting to the server.', false);
+                });
+            }
+
+            // Send audio to backend
+            function sendAudioToBackend(audioBlob) {
+                const reader = new FileReader();
+                reader.onloadend = () => {
+                    const base64Audio = reader.result.split(',')[1];
+                    
+                    fetch('/api/voice', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ audio: base64Audio }),
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        // Remove "Processing your voice message..."
+                        chatContainer.lastChild.remove();
+                        
+                        if (data.success) {
+                            // Add user message (transcribed text)
+                            addMessage(data.input, true, data.language);
+                            
+                            // Add assistant response
+                            addMessage(data.response, false, data.language);
+                            
+                            // If we got audio back, play it
+                            if (data.audio) {
+                                playAudio(data.audio);
+                            }
+                        } else {
+                            addMessage(`Error: ${data.error}`, false);
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        addMessage('Sorry, there was a problem processing your voice message.', false);
+                    });
+                };
+                reader.readAsDataURL(audioBlob);
+            }
+
+            // Play audio from base64
+            function playAudio(base64Audio) {
+                const audio = new Audio(`data:audio/wav;base64,${base64Audio}`);
+                audio.play().catch(e => console.error('Error playing audio:', e));
+            }
+
+            // Event listeners
+            messageInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+
+            sendButton.addEventListener('click', sendMessage);
+
+            recordButton.addEventListener('click', () => {
+                if (isRecording) {
+                    stopRecording();
+                } else {
+                    startRecording();
+                }
+            });
+
+            // Info button
+            document.getElementById('infoButton').addEventListener('click', () => {
+                addMessage('RescueX provides instant disaster management guidance. You can ask about natural disasters, emergency procedures, evacuation plans, first aid, and more. The system works in multiple languages and can process both text and voice inputs.', false);
+            });
+
+            // Initial scroll to bottom
+            scrollToBottom();
+        });
+    </script>
+</body>
+</html>
