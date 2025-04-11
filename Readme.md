@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.png" alt="RescueGrid Logo" width="200"/>
+ 
   <h1>RescueGrid: Integrated Disaster Management Platform</h1>
   <p><strong>AI-Powered Crisis Response and Coordination System</strong></p>
   
@@ -16,9 +16,10 @@
 - [System Architecture](#system-architecture)
 - [Key Features](#key-features)
   - [Real-time Communication](#real-time-communication)
-  - [AI-Powered Disaster Prediction](#ai-powered-disaster-prediction)
+  - [AI-Powered Weather Forecasting & Disaster Prediction](#ai-powered-weather-forecasting--disaster-prediction)
   - [Interactive Emergency Maps](#interactive-emergency-maps)
   - [Multilingual Disaster Management Chatbot](#multilingual-disaster-management-chatbot)
+- [Startup Ecosystem](#startup-ecosystem)
 - [Installation & Setup](#installation--setup)
   - [Chat Application](#chat-application)
   - [Recommendation System](#recommendation-system)
@@ -54,7 +55,7 @@ These issues lead to delayed response times, inefficient resource allocation, an
 RescueGrid addresses these challenges through an integrated platform with four core components:
 
 1. **RescueConnect**: A real-time emergency communication system with priority messaging, multimedia support, and offline capabilities.
-2. **DisasterPredict**: AI-driven disaster prediction and risk assessment tool that provides actionable recommendations.
+2. **WeatherPredict**: AI-driven weather forecasting and disaster prediction tool that provides actionable recommendations.
 3. **RescueMap**: Interactive mapping interface for emergency resource coordination and situational awareness.
 4. **RescueX India**: Multilingual disaster management chatbot specialized for the Indian context and languages.
 
@@ -64,8 +65,8 @@ RescueGrid employs a modular microservices architecture for flexibility, scalabi
 
 ```
 ┌───────────────────┐     ┌───────────────────┐     ┌───────────────────┐
-│   RescueConnect   │     │   DisasterPredict │     │     RescueMap     │
-│   (Chat System)   │     │  (AI Predictions) │     │ (Resource Mapping)│
+│   RescueConnect   │     │  WeatherPredict   │     │     RescueMap     │
+│   (Chat System)   │     │  (AI Forecasting) │     │ (Resource Mapping)│
 └────────┬──────────┘     └────────┬──────────┘     └────────┬──────────┘
          │                         │                         │
          ▼                         ▼                         ▼
@@ -95,27 +96,35 @@ Each component operates independently while sharing data through secure APIs, en
 - **Role-Based Access**: Specialized interfaces for different emergency roles
 - **Low-Bandwidth Mode**: Functions in connectivity-constrained environments
 
-### AI-Powered Disaster Prediction
+### AI-Powered Weather Forecasting & Disaster Prediction
 
-**DisasterPredict** leverages advanced AI for risk assessment:
+**WeatherPredict** leverages advanced AI for comprehensive weather forecasting and risk assessment:
 
-- **Weather Analysis**: Real-time weather data interpretation
-- **Multiple Disaster Predictions**: Floods, storms, wildfires, heat waves, etc.
-- **Severity Classification**: Risk levels from low to severe/extreme
+- **Advanced Weather Forecasting**: High-precision weather predictions up to 10 days in advance
+- **Hyperlocal Forecasting**: Block-level weather intelligence for precise emergency planning
+- **Satellite Imagery Integration**: Real-time satellite data for accurate storm tracking
+- **Multiple Disaster Predictions**: Floods, storms, wildfires, heat waves, earthquakes, etc.
+- **Severity Classification**: Risk levels from low to severe/extreme with color-coded alerts
 - **Actionable Recommendations**: Practical prevention and response measures
-- **Visual Analytics**: Intuitive data visualization and risk mapping
-- **Historical Pattern Recognition**: Learning from past disasters to predict future events
+- **Visual Analytics**: Intuitive data visualization and risk mapping with time-series forecasts
+- **Historical Pattern Recognition**: Machine learning models trained on decades of weather data
+- **Climate Change Impact Analysis**: Long-term disaster trend predictions based on climate models
+- **Early Warning System**: Automated alerts delivered hours or days before disaster strikes
 
 ### Interactive Emergency Maps
 
 **RescueMap** provides spatial awareness and coordination:
 
-- **Real-Time Resource Tracking**: Live location of emergency resources
+- **Real-Time Resource Tracking**: Live location of emergency resources, shelters, and medical facilities
 - **Voice Command Interface**: Hands-free operation for field personnel
-- **Agency Coordination**: Inter-agency visibility and communication
-- **Emergency Alerts**: Geographically targeted notifications
-- **Incident Reporting**: On-the-ground situation updates
+- **Agency Coordination**: Inter-agency visibility and communication with shared mapping layers
+- **Emergency Alerts**: Geographically targeted notifications with evacuation routes
+- **Incident Reporting**: On-the-ground situation updates with photo and video capabilities
 - **Offline Maps**: Continued functionality without internet connection
+- **3D Terrain Visualization**: Advanced topographical analysis for flood and landslide assessment
+- **Heat Maps**: Population density and vulnerability visualization
+- **Route Optimization**: AI-powered emergency vehicle routing during disasters
+- **Drone Integration**: Live aerial footage overlaid on maps for comprehensive situational awareness
 
 ### Multilingual Disaster Management Chatbot
 
@@ -123,10 +132,39 @@ Each component operates independently while sharing data through secure APIs, en
 
 - **Indian Languages Support**: Hindi, Tamil, Telugu, Bengali, Marathi, and more
 - **Disaster-Specific Information**: Specialized guidance for floods, cyclones, earthquakes
-- **Voice Interface**: Natural conversation in multiple languages
+- **Voice Interface**: Natural conversation in multiple languages with dialect recognition
 - **Emergency Contacts**: Connection to NDRF, SDMA, emergency helplines
 - **AI-Powered Responses**: Contextual assistance using Google's Gemini AI
 - **Accessible Design**: Mobile-friendly interface optimized for diverse users
+- **Interactive Tutorials**: Step-by-step emergency procedures with visual guides
+- **Mental Health Support**: Crisis counseling resources and coping strategies
+- **Community Assistance**: Connecting volunteers with those in need
+- **Offline Knowledge Base**: Critical information available without internet connectivity
+
+## 🚀 Startup Ecosystem
+
+RescueGrid empowers disaster-tech startups and encourages innovation in emergency management:
+
+### Integration Opportunities
+- **Open API Platform**: Documented APIs for startups to build complementary solutions
+- **Developer Sandbox**: Test environment with simulated disaster data
+- **SDK Access**: Software Development Kits for mobile and web applications
+
+### Startup Programs
+- **RescueGrid Accelerator**: 6-month program for early-stage disaster-tech startups
+- **Innovation Challenges**: Regular hackathons focused on solving specific disaster management problems
+- **Venture Funding**: Connection to impact investors specializing in disaster resilience technologies
+
+### Partnership Models
+- **Data Sharing Agreements**: Access to anonymized disaster response data for research
+- **Co-Development**: Opportunities to enhance core RescueGrid features
+- **Go-To-Market Support**: Joint marketing initiatives for complementary solutions
+
+### Success Stories
+- **DroneRescue**: UAV startup integrated with RescueMap for aerial reconnaissance
+- **VoiceAlert**: Voice-tech startup enhancing multilingual capabilities of RescueX
+- **PredictFlow**: AI startup improving flood forecasting algorithms
+- **CommRelay**: Mesh network startup expanding offline communication capabilities
 
 ## 🛠️ Installation & Setup
 
@@ -206,7 +244,7 @@ python app.py
 4. **Share Resources**: Upload images, locations, or other media as needed
 5. **Monitor Status**: Track team members and their activity
 
-### DisasterPredict
+### WeatherPredict
 
 1. **Enter Location**: Provide the location for prediction analysis
 2. **View Results**: Review disaster risks, severity levels, and probabilities
@@ -232,16 +270,19 @@ python app.py
 ## 📷 Screenshots
 
 <div align="center">
-  <img src="assets/screenshot-chat.png" alt="RescueConnect Chat Interface" width="400"/>
+  <img src="assets/chatbot1.jpg" alt="RescueConnect Chat Interface" width="400"/>
   <p><em>RescueConnect: Emergency Coordination Chat Interface</em></p>
   
-  <img src="assets/screenshot-prediction.png" alt="DisasterPredict Interface" width="400"/>
-  <p><em>DisasterPredict: AI-Powered Risk Assessment</em></p>
+  <img src="assets/weather1.jpg" alt="WeatherPredict Interface" width="400"/>
+   <img src="assets/weather3.jpg" alt="WeatherPredict Interface" width="400"/>
+    <img src="assets/weather2.jpg" alt="WeatherPredict Interface" width="400"/>
+     <img src="assets/weather4.jpg" alt="WeatherPredict Interface" width="400"/>
+    <p><em>RescueConnect: Emergency Coordination Chat Interface</em></p>
   
-  <img src="assets/screenshot-map.png" alt="RescueMap Interface" width="400"/>
-  <p><em>RescueMap: Emergency Resource Coordination</em></p>
+  <img src="assets/map.jpg" alt="RescueMap Interface" width="400"/>
+  <p><em>RescueMap: Interactive Emergency Resource Coordination</em></p>
   
-  <img src="assets/screenshot-chatbot.png" alt="RescueX Chatbot Interface" width="400"/>
+  <img src="assets/chatbot2.jpg" alt="RescueX Chatbot Interface" width="400"/>
   <p><em>RescueX India: Multilingual Disaster Management Chatbot</em></p>
 </div>
 
@@ -346,8 +387,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 <div align="center">
   <p>Made with ❤️ by the RescueGrid Team | Committed to saving lives through technology</p>
 </div>
-#   K T K - K U C H - T O - K A R A N G E -  
- #   K T K - K U C H - T O - K A R A N G E -  
- #   K T K - K U C H - T O - K A R A N G E -  
- #   K T K - K U C H - T O - K A R A N G E -  
- 
