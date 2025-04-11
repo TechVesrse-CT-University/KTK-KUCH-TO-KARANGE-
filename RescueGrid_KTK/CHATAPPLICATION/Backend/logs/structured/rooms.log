@@ -1,0 +1,605 @@
+====================
+TIMESTAMP: 2025-04-10T21:06:09.748Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: oOsQSyK0Fd8BwB6eAAAB
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:09.752Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: oOsQSyK0Fd8BwB6eAAAB
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:09.765Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: Z6GuugOjwlfjqBCdAAAD
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:09.774Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: Z6GuugOjwlfjqBCdAAAD
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:19.432Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: ujkS3vC3cpquItZTAAAF
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:19.458Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: ujkS3vC3cpquItZTAAAF
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:20.720Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: ujkS3vC3cpquItZTAAAF
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:21.724Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: 5f8EOxeGaUgZh0ocAAAH
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:21.734Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: 5f8EOxeGaUgZh0ocAAAH
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:53.873Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: ujkS3vC3cpquItZTAAAF
+  username: Madhav
+  room: medical
+  isNewRoom: true
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:53.885Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: ujkS3vC3cpquItZTAAAF
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:54.217Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: ujkS3vC3cpquItZTAAAF
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:07:03.527Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: 5f8EOxeGaUgZh0ocAAAH
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:07:03.557Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: 5f8EOxeGaUgZh0ocAAAH
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:07:03.881Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: 5f8EOxeGaUgZh0ocAAAH
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:35:24.788Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: 4FYPZfom35rSI4s_AAAK
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:35:45.288Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: rzK7DHbcE8bG5GkgAAAL
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:55:55.660Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: hqovnt3NAyQu7MIVAAAB
+  username: Madhav
+  room: medical
+  isNewRoom: true
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:55:55.676Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: KKmQmEdpwI9IREKoAAAD
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:56:18.667Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: uF5i2MgkBoffDmW5AAAB
+  username: Madhav
+  room: medical
+  isNewRoom: true
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:56:19.674Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: uPLdE1-Zdz8MxXQkAAAD
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:56:44.656Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: X_SNRKlOMm13LJu1AAAC
+  username: Madhav
+  room: medical
+  isNewRoom: true
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:56:44.663Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: zzafJMAfKqxQMyC4AAAD
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:57:44.678Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: gaSsdbtawjeC6YPAAAAB
+  username: Madhav
+  room: medical
+  isNewRoom: true
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:57:44.684Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: SdN0STbALwdJa212AAAD
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:57:48.668Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: E0pC7PJTSd9POQsVAAAF
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:01:52.909Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: LAp1bqv-EXR0XEp1AAAH
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:01:52.923Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: LAp1bqv-EXR0XEp1AAAH
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:01:53.972Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: LAp1bqv-EXR0XEp1AAAH
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:02:03.005Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: F0Gy5LjrIXmHJyKIAAAJ
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:02:03.023Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: F0Gy5LjrIXmHJyKIAAAJ
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:02:08.858Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: F0Gy5LjrIXmHJyKIAAAJ
+  username: Madhav
+  room: search-rescue
+  isNewRoom: true
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:02:08.867Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: F0Gy5LjrIXmHJyKIAAAJ
+  username: Madhav
+  room: search-rescue
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:02:09.199Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: F0Gy5LjrIXmHJyKIAAAJ
+  username: Madhav
+  room: search-rescue
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:02:09.861Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: F0Gy5LjrIXmHJyKIAAAJ
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:02:09.871Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: F0Gy5LjrIXmHJyKIAAAJ
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:02:10.221Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: F0Gy5LjrIXmHJyKIAAAJ
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:34:40.020Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: FgddhXEjA-i957mnAAAL
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:34:40.049Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: FgddhXEjA-i957mnAAAL
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:40:44.640Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: FgddhXEjA-i957mnAAAL
+  username: Madhav
+  room: search-rescue
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:40:44.669Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: FgddhXEjA-i957mnAAAL
+  username: Madhav
+  room: search-rescue
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:40:45.039Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: FgddhXEjA-i957mnAAAL
+  username: Madhav
+  room: search-rescue
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:40:45.884Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: FgddhXEjA-i957mnAAAL
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:40:45.892Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: FgddhXEjA-i957mnAAAL
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:40:46.251Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: FgddhXEjA-i957mnAAAL
+  username: Madhav
+  room: emergency
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:41:30.028Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: FgddhXEjA-i957mnAAAL
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:41:30.034Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: FgddhXEjA-i957mnAAAL
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:41:30.391Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: FgddhXEjA-i957mnAAAL
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:42:36.028Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: LAp1bqv-EXR0XEp1AAAH
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:42:36.047Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: LAp1bqv-EXR0XEp1AAAH
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:42:36.394Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: LAp1bqv-EXR0XEp1AAAH
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:44:51.072Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: pIFLuDNnbNx1ixwzAAAN
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T02:00:55.201Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: -Pqq9A-foyuPyxpXAAAP
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+
+====================
+TIMESTAMP: 2025-04-11T03:05:40.168Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: fhhM4s-8EzViFIXPAAAD
+  username: Madhav
+  room: medical
+  isNewRoom: true
+====================
+
+====================
+TIMESTAMP: 2025-04-11T03:05:40.553Z
+LEVEL: INFO
+MESSAGE: User joining room
+DETAILS:
+  socketId: 6BJOa4htFTqn_PRmAAAB
+  username: Madhav
+  room: medical
+  isNewRoom: false
+====================
+

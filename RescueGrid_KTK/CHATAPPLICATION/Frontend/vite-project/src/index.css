@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --safe-green: #10B981;
+  --emergency-red: #DC2626;
+  --warning-yellow: #FACC15;
+  --charcoal-black: #111827;
+  --light-gray: #F9FAFB;
+  
+  --transition-fast: all 0.2s ease;
+  --transition-normal: all 0.3s ease;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  --primary-color: #10B981;
+  --primary-hover: #059669;
+  --emergency-color: #DC2626;
+  --warning-color: #FACC15;
+  --dark-color: #111827;
+}
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(17, 24, 39, 0.2);
+  border-radius: 3px;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(17, 24, 39, 0.3);
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Hide scrollbar but allow scrolling */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* Animation for typing indicator */
+@keyframes typing {
+  0% { transform: translateY(0px); }
+  28% { transform: translateY(-5px); }
+  44% { transform: translateY(0px); }
+}
+
+/* Waving animation */
+@keyframes wave {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(15deg); }
+  75% { transform: rotate(-15deg); }
+}
+
+.animate-wave {
+  animation: wave 2s infinite ease-in-out;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Mobile responsiveness adjustments */
+@media (max-width: 640px) {
+  .md-hidden {
+    display: none;
+  }
+  
+  .mobile-full-width {
+    width: 100% !important;
+  }
+}
+
+/* Dark mode transitions */
+.dark {
+  color-scheme: dark;
+}
+
+html {
+  font-family: var(--font-primary);
+  scroll-behavior: smooth;
+  transition: background-color 0.3s ease;
+}
+
+body {
+  @apply text-charcoal bg-light-gray overflow-x-hidden;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold;
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 font-medium rounded-lg transition-all;
+  }
+  
+  .btn-primary {
+    @apply bg-safe text-white hover:bg-green-600 active:bg-green-700;
+  }
+  
+  .btn-danger {
+    @apply bg-emergency text-white hover:bg-red-600 active:bg-red-700;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-safe focus:border-transparent;
+  }
+}
+
+@layer utilities {
+  /* Custom animation for typing indicator */
+  @keyframes typing {
+    0%, 100% {
+      opacity: 0.5;
+      transform: translateY(0);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(-2px);
+    }
+  }
+}

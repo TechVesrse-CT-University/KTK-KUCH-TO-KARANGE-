@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-time Chat Application</title>
+    <style>
+      #error-container {
+        display: none;
+        background-color: #ffebee;
+        color: #c62828;
+        padding: 16px;
+        border-radius: 4px;
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        max-width: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="error-container"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      window.addEventListener('error', function(event) {
+        const errorContainer = document.getElementById('error-container');
+        errorContainer.style.display = 'block';
+        errorContainer.innerHTML = '<strong>Error:</strong> ' + event.message;
+        
+        // Log to console for debugging
+        console.error('Caught runtime error:', event);
+      });
+      
+      // Firebase error handling
+      window.onFirebaseError = function(error) {
+        const errorContainer = document.getElementById('error-container');
+        errorContainer.style.display = 'block';
+        errorContainer.innerHTML = '<strong>Firebase Error:</strong> ' + error.message;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,456 @@
+====================
+TIMESTAMP: 2025-04-10T21:02:30.354Z
+LEVEL: INFO
+MESSAGE: Test users created successfully
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:02:54.063Z
+LEVEL: INFO
+MESSAGE: Test users created successfully
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:03:16.636Z
+LEVEL: INFO
+MESSAGE: Server starting
+DETAILS:
+  startTime: 2025-04-10T21:03:16.620Z
+  port: 3000
+  environment: development
+  system: {
+  "hostname": "DESKTOP-8UJVAGE",
+  "platform": "win32",
+  "arch": "x64",
+  "cpus": 8,
+  "memory": "8 GB",
+  "node": "v22.14.0"
+}
+  logs: {
+  "paths": {
+    "main": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log",
+    "structured": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured"
+  },
+  "writable": true
+}
+  options: {
+  "corsOrigin": "http://localhost:5173",
+  "socketTimeout": 30000,
+  "iosPingInterval": 15000
+}
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:03:16.802Z
+LEVEL: INFO
+MESSAGE: Test users created successfully
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:03:24.578Z
+LEVEL: INFO
+MESSAGE: Server starting
+DETAILS:
+  startTime: 2025-04-10T21:03:24.555Z
+  port: 3000
+  environment: development
+  system: {
+  "hostname": "DESKTOP-8UJVAGE",
+  "platform": "win32",
+  "arch": "x64",
+  "cpus": 8,
+  "memory": "8 GB",
+  "node": "v22.14.0"
+}
+  logs: {
+  "paths": {
+    "main": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log",
+    "structured": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured"
+  },
+  "writable": true
+}
+  options: {
+  "corsOrigin": "http://localhost:5173",
+  "socketTimeout": 30000,
+  "iosPingInterval": 15000
+}
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:03:24.925Z
+LEVEL: INFO
+MESSAGE: Test users created successfully
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:58.372Z
+LEVEL: INFO
+MESSAGE: 💬 [MESSAGE] From Madhav in room medical: wdqsyhahvxjashvcbxzhjbacxnz
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:58.376Z
+LEVEL: INFO
+MESSAGE: Sending message 1744319218374-f3c7464f71 to sender ujkS3vC3cpquItZTAAAF
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:06:58.377Z
+LEVEL: INFO
+MESSAGE: Broadcasting message 1744319218374-f3c7464f71 to room medical
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:07:12.380Z
+LEVEL: INFO
+MESSAGE: 💬 [MESSAGE] From Madhav in room medical: hello how are you
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:07:12.383Z
+LEVEL: INFO
+MESSAGE: Sending message 1744319232381-c1a43d0295 to sender 5f8EOxeGaUgZh0ocAAAH
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:07:12.385Z
+LEVEL: INFO
+MESSAGE: Broadcasting message 1744319232381-c1a43d0295 to room medical
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:55:54.259Z
+LEVEL: INFO
+MESSAGE: Server starting
+DETAILS:
+  startTime: 2025-04-10T22:55:54.188Z
+  port: 3000
+  environment: development
+  system: {
+  "hostname": "DESKTOP-8UJVAGE",
+  "platform": "win32",
+  "arch": "x64",
+  "cpus": 8,
+  "memory": "8 GB",
+  "node": "v22.14.0"
+}
+  logs: {
+  "paths": {
+    "main": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log",
+    "structured": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured"
+  },
+  "writable": true
+}
+  options: {
+  "corsOrigin": "http://localhost:5173",
+  "socketTimeout": 30000,
+  "iosPingInterval": 15000
+}
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:55:54.924Z
+LEVEL: INFO
+MESSAGE: Test users created successfully
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:56:16.789Z
+LEVEL: INFO
+MESSAGE: Server starting
+DETAILS:
+  startTime: 2025-04-10T22:56:16.771Z
+  port: 3000
+  environment: development
+  system: {
+  "hostname": "DESKTOP-8UJVAGE",
+  "platform": "win32",
+  "arch": "x64",
+  "cpus": 8,
+  "memory": "8 GB",
+  "node": "v22.14.0"
+}
+  logs: {
+  "paths": {
+    "main": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log",
+    "structured": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured"
+  },
+  "writable": true
+}
+  options: {
+  "corsOrigin": "http://localhost:5173",
+  "socketTimeout": 30000,
+  "iosPingInterval": 15000
+}
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:56:17.593Z
+LEVEL: INFO
+MESSAGE: Server starting
+DETAILS:
+  startTime: 2025-04-10T22:56:17.580Z
+  port: 3000
+  environment: development
+  system: {
+  "hostname": "DESKTOP-8UJVAGE",
+  "platform": "win32",
+  "arch": "x64",
+  "cpus": 8,
+  "memory": "8 GB",
+  "node": "v22.14.0"
+}
+  logs: {
+  "paths": {
+    "main": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log",
+    "structured": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured"
+  },
+  "writable": true
+}
+  options: {
+  "corsOrigin": "http://localhost:5173",
+  "socketTimeout": 30000,
+  "iosPingInterval": 15000
+}
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:56:17.815Z
+LEVEL: INFO
+MESSAGE: Test users created successfully
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:56:40.177Z
+LEVEL: INFO
+MESSAGE: Server starting
+DETAILS:
+  startTime: 2025-04-10T22:56:40.160Z
+  port: 3000
+  environment: development
+  system: {
+  "hostname": "DESKTOP-8UJVAGE",
+  "platform": "win32",
+  "arch": "x64",
+  "cpus": 8,
+  "memory": "8 GB",
+  "node": "v22.14.0"
+}
+  logs: {
+  "paths": {
+    "main": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log",
+    "structured": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured"
+  },
+  "writable": true
+}
+  options: {
+  "corsOrigin": "http://localhost:5173",
+  "socketTimeout": 30000,
+  "iosPingInterval": 15000
+}
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:56:40.468Z
+LEVEL: INFO
+MESSAGE: Test users created successfully
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:56:41.177Z
+LEVEL: INFO
+MESSAGE: Server starting
+DETAILS:
+  startTime: 2025-04-10T22:56:41.165Z
+  port: 3000
+  environment: development
+  system: {
+  "hostname": "DESKTOP-8UJVAGE",
+  "platform": "win32",
+  "arch": "x64",
+  "cpus": 8,
+  "memory": "8 GB",
+  "node": "v22.14.0"
+}
+  logs: {
+  "paths": {
+    "main": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log",
+    "structured": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured"
+  },
+  "writable": true
+}
+  options: {
+  "corsOrigin": "http://localhost:5173",
+  "socketTimeout": 30000,
+  "iosPingInterval": 15000
+}
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:56:41.446Z
+LEVEL: INFO
+MESSAGE: Test users created successfully
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:56:43.805Z
+LEVEL: INFO
+MESSAGE: Server starting
+DETAILS:
+  startTime: 2025-04-10T22:56:43.795Z
+  port: 3000
+  environment: development
+  system: {
+  "hostname": "DESKTOP-8UJVAGE",
+  "platform": "win32",
+  "arch": "x64",
+  "cpus": 8,
+  "memory": "8 GB",
+  "node": "v22.14.0"
+}
+  logs: {
+  "paths": {
+    "main": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log",
+    "structured": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured"
+  },
+  "writable": true
+}
+  options: {
+  "corsOrigin": "http://localhost:5173",
+  "socketTimeout": 30000,
+  "iosPingInterval": 15000
+}
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:56:44.049Z
+LEVEL: INFO
+MESSAGE: Test users created successfully
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:57:43.158Z
+LEVEL: INFO
+MESSAGE: Server starting
+DETAILS:
+  startTime: 2025-04-10T22:57:43.148Z
+  port: 3000
+  environment: development
+  system: {
+  "hostname": "DESKTOP-8UJVAGE",
+  "platform": "win32",
+  "arch": "x64",
+  "cpus": 8,
+  "memory": "8 GB",
+  "node": "v22.14.0"
+}
+  logs: {
+  "paths": {
+    "main": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log",
+    "structured": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured"
+  },
+  "writable": true
+}
+  options: {
+  "corsOrigin": "http://localhost:5173",
+  "socketTimeout": 30000,
+  "iosPingInterval": 15000
+}
+====================
+
+====================
+TIMESTAMP: 2025-04-10T22:57:43.526Z
+LEVEL: INFO
+MESSAGE: Test users created successfully
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:01:57.396Z
+LEVEL: INFO
+MESSAGE: 💬 [MESSAGE] From Madhav in room emergency: 🔥
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:01:57.406Z
+LEVEL: INFO
+MESSAGE: Sending message 1744326117398-6d1e5a77bd to sender LAp1bqv-EXR0XEp1AAAH
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:01:57.409Z
+LEVEL: INFO
+MESSAGE: Broadcasting message 1744326117398-6d1e5a77bd to room emergency
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:02:15.626Z
+LEVEL: INFO
+MESSAGE: 💬 [MESSAGE] From Madhav in room emergency: 🎉🎉🎉🎉
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:02:15.636Z
+LEVEL: INFO
+MESSAGE: Sending message 1744326135627-a1db9d537a to sender F0Gy5LjrIXmHJyKIAAAJ
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:02:15.641Z
+LEVEL: INFO
+MESSAGE: Broadcasting message 1744326135627-a1db9d537a to room emergency
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:42:30.992Z
+LEVEL: INFO
+MESSAGE: 💬 [MESSAGE] From Madhav in room medical: fdx
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:42:31.008Z
+LEVEL: INFO
+MESSAGE: Sending message 1744335751003-45057ac476 to sender FgddhXEjA-i957mnAAAL
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:42:31.013Z
+LEVEL: INFO
+MESSAGE: Broadcasting message 1744335751003-45057ac476 to room medical
+====================
+
+====================
+TIMESTAMP: 2025-04-11T03:05:39.465Z
+LEVEL: INFO
+MESSAGE: Server starting
+DETAILS:
+  startTime: 2025-04-11T03:05:39.449Z
+  port: 3000
+  environment: development
+  system: {
+  "hostname": "DESKTOP-8UJVAGE",
+  "platform": "win32",
+  "arch": "x64",
+  "cpus": 8,
+  "memory": "8 GB",
+  "node": "v22.14.0"
+}
+  logs: {
+  "paths": {
+    "main": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log",
+    "structured": "C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured"
+  },
+  "writable": true
+}
+  options: {
+  "corsOrigin": "http://localhost:5173",
+  "socketTimeout": 30000,
+  "iosPingInterval": 15000
+}
+====================
+
+====================
+TIMESTAMP: 2025-04-11T03:05:39.638Z
+LEVEL: INFO
+MESSAGE: Test users created successfully
+====================
+

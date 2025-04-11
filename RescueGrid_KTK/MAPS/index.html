@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rescue Team Voice Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <!-- Add Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-gray-100">
+    <!-- Authentication screens -->
+    <div id="auth-container" class="active">
+      <div
+        id="login-form"
+        class="auth-form active bg-white p-8 rounded-lg shadow-md"
+      >
+        <h2 class="text-2xl font-bold text-center mb-6 text-gray-800">
+          Login to Rescue Dashboard
+        </h2>
+        <input
+          type="email"
+          id="login-email"
+          placeholder="Email"
+          required
+          class="w-full p-2 mb-4 border rounded"
+        />
+        <input
+          type="password"
+          id="login-password"
+          placeholder="Password"
+          required
+          class="w-full p-2 mb-4 border rounded"
+        />
+        <button
+          id="login-button"
+          class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
+        >
+          Login
+        </button>
+        <p class="mt-4 text-center">
+          Don't have an account?
+          <a href="#" id="show-signup" class="text-blue-600">Sign up</a>
+        </p>
+      </div>
+      <div id="signup-form" class="auth-form bg-white p-8 rounded-lg shadow-md">
+        <h2 class="text-2xl font-bold text-center mb-6 text-gray-800">
+          Create an Account
+        </h2>
+        <input
+          type="email"
+          id="signup-email"
+          placeholder="Email"
+          required
+          class="w-full p-2 mb-4 border rounded"
+        />
+        <input
+          type="password"
+          id="signup-password"
+          placeholder="Password"
+          required
+          class="w-full p-2 mb-4 border rounded"
+        />
+        <input
+          type="text"
+          id="agency-name"
+          placeholder="Agency Name"
+          required
+          class="w-full p-2 mb-4 border rounded"
+        />
+        <select id="agency-type" class="w-full p-2 mb-4 border rounded">
+          <option value="">Select Agency Type</option>
+          <option value="fire">Fire Department</option>
+          <option value="medical">Medical Response</option>
+          <option value="police">Police</option>
+          <option value="flood">Flood Response</option>
+          <option value="disaster">Disaster Management</option>
+        </select>
+        <button
+          id="signup-button"
+          class="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700 transition"
+        >
+          Sign Up
+        </button>
+        <p class="mt-4 text-center">
+          Already have an account?
+          <a href="#" id="show-login" class="text-blue-600">Login</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Main app container (hidden initially) -->
+    <div id="app-container" class="hidden">
+      <div id="map-container" class="h-screen w-full">
+        <div id="map" class="h-full"></div>
+      </div>
+
+      <div
+        id="voice-indicator"
+        class="fixed top-4 right-4 bg-black bg-opacity-70 p-3 rounded-lg flex items-center text-white cursor-pointer hover:bg-opacity-90 transition z-50"
+      >
+        <div id="mic-icon" class="text-2xl mr-2">🎤</div>
+        <div id="status-text" class="text-sm">Click microphone to activate</div>
+      </div>
+
+      <div
+        id="user-info"
+        class="fixed top-4 left-4 bg-black bg-opacity-70 p-3 rounded-lg flex items-center text-white z-50"
+      >
+        <span id="user-name" class="font-bold mr-3"></span>
+        <button
+          id="logout-button"
+          class="bg-red-600 text-white text-sm px-3 py-1 rounded hover:bg-red-700 transition"
+        >
+          Logout
+        </button>
+      </div>
+
+      <div
+        id="agencies-panel"
+        class="fixed right-4 top-16 w-72 max-h-[60vh] bg-white rounded-lg shadow-lg overflow-y-auto z-40"
+      >
+        <h3 class="text-lg font-bold p-3 border-b text-center bg-gray-100">
+          Nearby Rescue Agencies
+        </h3>
+        <div id="agencies-list" class="p-2"></div>
+      </div>
+
+      <!-- Added panel for joined agencies -->
+      <div
+        id="joined-agencies-panel"
+        class="fixed left-4 top-16 w-72 max-h-[40vh] bg-white rounded-lg shadow-lg overflow-y-auto z-40 hidden"
+      >
+        <h3 class="text-lg font-bold p-3 border-b text-center bg-green-100">
+          Connected Agencies
+        </h3>
+        <div id="joined-agencies-list" class="p-2"></div>
+      </div>
+
+      <div
+        id="notification-area"
+        class="fixed top-16 left-4 max-w-xs z-50"
+      ></div>
+
+      <div
+        id="command-log"
+        class="fixed bottom-0 left-0 w-full p-2 bg-black bg-opacity-70 text-white max-h-24 overflow-y-auto z-50"
+      ></div>
+    </div>
+
+    <!-- Local notification system (replacing Firebase) -->
+    <script>
+      // Simple notification sound player
+      function playNotificationSound(type) {
+        const sounds = {
+          alert:
+            "https://assets.mixkit.co/sfx/preview/mixkit-alert-quick-chime-766.mp3",
+          success:
+            "https://assets.mixkit.co/sfx/preview/mixkit-confirmation-tone-1643.mp3",
+          error:
+            "https://assets.mixkit.co/sfx/preview/mixkit-negative-guitar-tone-2324.mp3",
+        };
+        const sound = new Audio(sounds[type] || sounds.alert);
+        sound.volume = 0.5;
+        sound.play().catch((e) => console.log("Audio playback prevented:", e));
+      }
+    </script>
+
+    <!-- 3D Library - Three.js -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/GLTFLoader.js"></script>
+
+    <!-- Application scripts -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/agency-data.js"></script>
+    <script src="js/map-controller.js"></script>
+    <script src="js/alert-manager.js"></script>
+    <script src="js/notification-service.js"></script>
+    <script src="js/voice-recognition.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

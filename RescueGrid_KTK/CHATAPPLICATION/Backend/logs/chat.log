@@ -1,0 +1,774 @@
+[2025-04-10T20:18:49.457Z] [INFO] Test users created successfully
+[2025-04-10T20:19:03.385Z] [INFO] Test users created successfully
+[2025-04-10T20:20:17.837Z] [INFO] Test users created successfully
+[2025-04-10T20:21:52.938Z] [INFO] Test users created successfully
+[2025-04-10T20:22:03.420Z] [INFO] Test users created successfully
+[2025-04-10T20:22:37.781Z] [INFO] Test users created successfully
+[2025-04-10T20:22:43.243Z] [INFO] Test users created successfully
+[2025-04-10T20:23:08.490Z] [INFO] Test users created successfully
+[2025-04-10T20:25:16.093Z] [AUTH] Registration attempt
+Data: {
+  "email": "madhavarora132005@gmail.com",
+  "username": "Madhavarora-1213"
+}
+[2025-04-10T20:27:36.718Z] [INFO] Test users created successfully
+[2025-04-10T20:29:18.362Z] [INFO] Test users created successfully
+[2025-04-10T20:30:14.234Z] [AUTH] Login attempt
+Data: {
+  "email": "madhavarora132005@gmail.com",
+  "ip": "::1"
+}
+[2025-04-10T20:30:14.355Z] [AUTH] Login failed - Invalid password
+Data: {
+  "email": "madhavarora132005@gmail.com"
+}
+[2025-04-10T20:34:59.715Z] [AUTH] Login attempt
+Data: {
+  "email": "madhavarora132005@gmail.com",
+  "ip": "::1"
+}
+[2025-04-10T20:34:59.825Z] [AUTH] Login failed - Invalid password
+Data: {
+  "email": "madhavarora132005@gmail.com"
+}
+[2025-04-10T20:35:10.087Z] [AUTH] Login attempt
+Data: {
+  "email": "madhavarora132005@gmail.com",
+  "ip": "::1"
+}
+[2025-04-10T20:35:10.187Z] [AUTH] Login failed - Invalid password
+Data: {
+  "email": "madhavarora132005@gmail.com"
+}
+[2025-04-10T20:35:27.848Z] [AUTH] Login attempt
+Data: {
+  "email": "madhavarora132005@gmail.com",
+  "ip": "::1"
+}
+[2025-04-10T20:35:27.967Z] [AUTH] Login failed - Invalid password
+Data: {
+  "email": "madhavarora132005@gmail.com"
+}
+[2025-04-10T20:35:46.579Z] [AUTH] Registration attempt
+Data: {
+  "email": "madhavarora132005@gmail.com",
+  "username": "Madhavarora-1213"
+}
+[2025-04-10T20:39:41.326Z] [INFO] Test users created successfully
+[2025-04-10T20:39:43.089Z] [INFO] Test users created successfully
+[2025-04-10T20:42:26.121Z] [INFO] Test users created successfully
+[2025-04-10T20:46:20.191Z] [AUTH] Login attempt
+Data: {
+  "email": "madhavarora132005@gmail.com",
+  "ip": "::1"
+}
+[2025-04-10T20:46:20.298Z] [AUTH] Login failed - Invalid password
+Data: {
+  "email": "madhavarora132005@gmail.com"
+}
+[2025-04-10T20:46:22.566Z] [AUTH] Login attempt
+Data: {
+  "email": "madhavarora132005@gmail.com",
+  "ip": "::1"
+}
+[2025-04-10T20:46:22.706Z] [AUTH] Login failed - Invalid password
+Data: {
+  "email": "madhavarora132005@gmail.com"
+}
+[2025-04-10T20:46:23.690Z] [AUTH] Login attempt
+Data: {
+  "email": "madhavarora132005@gmail.com",
+  "ip": "::1"
+}
+[2025-04-10T20:46:23.793Z] [AUTH] Login failed - Invalid password
+Data: {
+  "email": "madhavarora132005@gmail.com"
+}
+[2025-04-10T20:46:49.596Z] [AUTH] Registration attempt
+Data: {
+  "email": "aroradiksha341@gmail.com",
+  "username": "Madhav"
+}
+[2025-04-10T20:46:49.702Z] [INFO] User created successfully
+Data: {
+  "email": "aroradiksha341@gmail.com",
+  "username": "Madhav"
+}
+[2025-04-10T20:46:49.707Z] [AUTH] Registration successful with auto-login
+Data: {
+  "email": "aroradiksha341@gmail.com",
+  "username": "Madhav"
+}
+[2025-04-10T20:50:01.541Z] [INFO] Server running on port 3000
+[2025-04-10T20:50:01.546Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T20:50:01.547Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T20:50:01.704Z] [INFO] Test users created successfully
+[2025-04-10T20:50:02.704Z] [INFO] ✨ New socket connection: ea8fCVQ5pSkno-zAAAAC
+[2025-04-10T20:50:02.705Z] [INFO] 🧑 User connected: Guest_852 (ea8fCVQ5pSkno-zAAAAC)
+[2025-04-10T20:50:02.708Z] [INFO] ✨ New socket connection: k4l4rOEt995Aq5j_AAAD
+[2025-04-10T20:50:02.709Z] [INFO] 🧑 User connected: Madhav (k4l4rOEt995Aq5j_AAAD)
+[2025-04-10T20:50:03.670Z] [INFO] 🚪 User Guest_852 joining room: emergency
+[2025-04-10T20:50:03.675Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:50:03.775Z] [INFO] Sent 1 messages to Guest_852 for room emergency
+[2025-04-10T20:50:03.782Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:50:10.159Z] [INFO] ==== Server started ====
+[2025-04-10T20:50:10.162Z] [INFO] Server running on port 3000
+[2025-04-10T20:50:10.162Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T20:50:10.163Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T20:50:10.165Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T20:50:10.345Z] [INFO] Test users created successfully
+[2025-04-10T20:50:10.712Z] [INFO] ✨ New socket connection: R74WxfWk_e0rPib6AAAB
+[2025-04-10T20:50:10.714Z] [INFO] 🧑 User connected: Madhav (R74WxfWk_e0rPib6AAAB)
+[2025-04-10T20:50:10.733Z] [INFO] ✨ New socket connection: -jQ4ihw-BBzvJGDJAAAD
+[2025-04-10T20:50:10.735Z] [INFO] 🧑 User connected: Guest_852 (-jQ4ihw-BBzvJGDJAAAD)
+[2025-04-10T20:50:11.672Z] [INFO] 🚪 User Guest_852 joining room: emergency
+[2025-04-10T20:50:11.673Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:50:11.777Z] [INFO] Sent 1 messages to Guest_852 for room emergency
+[2025-04-10T20:50:11.784Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:51:34.948Z] [INFO] ==== Server started ====
+[2025-04-10T20:51:34.951Z] [INFO] Server running on port 3000
+[2025-04-10T20:51:34.952Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T20:51:34.953Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T20:51:34.953Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T20:51:35.104Z] [INFO] Test users created successfully
+[2025-04-10T20:51:35.712Z] [INFO] ✨ New socket connection: h2XojOI2dskSnoanAAAB
+[2025-04-10T20:51:35.715Z] [INFO] 🧑 User connected: Madhav (h2XojOI2dskSnoanAAAB)
+[2025-04-10T20:51:35.724Z] [INFO] ✨ New socket connection: _oN_cBJed4m9w-JyAAAD
+[2025-04-10T20:51:35.725Z] [INFO] 🧑 User connected: Guest_852 (_oN_cBJed4m9w-JyAAAD)
+[2025-04-10T20:51:36.671Z] [INFO] 🚪 User Guest_852 joining room: emergency
+[2025-04-10T20:51:36.673Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:51:36.786Z] [INFO] Sent 1 messages to Guest_852 for room emergency
+[2025-04-10T20:51:36.789Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:51:44.721Z] [INFO] 🔌 Socket disconnected: _oN_cBJed4m9w-JyAAAD
+[2025-04-10T20:51:44.997Z] [INFO] 🔌 Socket disconnected: h2XojOI2dskSnoanAAAB
+[2025-04-10T20:51:46.718Z] [INFO] ✨ New socket connection: vtIaRRX2ZIfc-CmCAAAF
+[2025-04-10T20:51:46.724Z] [INFO] 🧑 User connected: Madhav (vtIaRRX2ZIfc-CmCAAAF)
+[2025-04-10T20:51:47.331Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:51:47.340Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T20:51:47.342Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:51:47.344Z] [INFO] ✨ New socket connection: oqjQKNxdgCYUrb-nAAAH
+[2025-04-10T20:51:47.345Z] [INFO] 🧑 User connected: Madhav (oqjQKNxdgCYUrb-nAAAH)
+[2025-04-10T20:51:47.434Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:51:47.450Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:51:48.747Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:51:48.751Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T20:51:48.752Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:51:48.781Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T20:51:48.781Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:51:48.851Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:51:48.853Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:51:48.889Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:53:05.127Z] [INFO] ==== Server started ====
+[2025-04-10T20:53:05.131Z] [INFO] Server running on port 3000
+[2025-04-10T20:53:05.133Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T20:53:05.133Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T20:53:05.141Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T20:53:05.371Z] [INFO] Test users created successfully
+[2025-04-10T20:53:05.867Z] [INFO] ✨ New socket connection: foWnCAjG-MuCx0KwAAAB
+[2025-04-10T20:53:05.868Z] [INFO] 🧑 User connected: Madhav (foWnCAjG-MuCx0KwAAAB)
+[2025-04-10T20:53:05.875Z] [INFO] ✨ New socket connection: a5BtP1fIl_DoWBeJAAAD
+[2025-04-10T20:53:05.876Z] [INFO] 🧑 User connected: Madhav (a5BtP1fIl_DoWBeJAAAD)
+[2025-04-10T20:53:07.744Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:53:07.748Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T20:53:07.749Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:53:07.791Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:53:07.817Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T20:53:07.818Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:53:07.858Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:53:07.864Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:53:07.903Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:53:07.936Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:53:16.968Z] [INFO] 💬 [MESSAGE] From Madhav in room emergency: ❤️
+[2025-04-10T20:53:16.970Z] [INFO] Sending message 1744318396970-ba38638e18 to sender a5BtP1fIl_DoWBeJAAAD
+[2025-04-10T20:53:16.971Z] [INFO] Broadcasting message 1744318396970-ba38638e18 to room emergency
+[2025-04-10T20:53:21.563Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T20:53:21.563Z] [INFO] 🚪 User Madhav joining room: search-rescue
+[2025-04-10T20:53:21.564Z] [INFO] Creating new room: search-rescue
+[2025-04-10T20:53:21.571Z] [INFO] User Madhav leaving room: search-rescue
+[2025-04-10T20:53:21.572Z] [INFO] 🚪 User Madhav joining room: search-rescue
+[2025-04-10T20:53:21.672Z] [INFO] Sent 1 messages to Madhav for room search-rescue
+[2025-04-10T20:53:21.679Z] [INFO] Sent 1 messages to Madhav for room search-rescue
+[2025-04-10T20:53:21.947Z] [INFO] User Madhav leaving room: search-rescue
+[2025-04-10T20:53:21.948Z] [INFO] 🚪 User Madhav joining room: search-rescue
+[2025-04-10T20:53:22.057Z] [INFO] Sent 1 messages to Madhav for room search-rescue
+[2025-04-10T20:53:23.213Z] [INFO] User Madhav leaving room: search-rescue
+[2025-04-10T20:53:23.214Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:53:23.220Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T20:53:23.220Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:53:23.323Z] [INFO] Sent 2 messages to Madhav for room emergency
+[2025-04-10T20:53:23.325Z] [INFO] Sent 2 messages to Madhav for room emergency
+[2025-04-10T20:53:23.583Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T20:53:23.584Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:53:23.703Z] [INFO] Sent 2 messages to Madhav for room emergency
+[2025-04-10T20:53:28.451Z] [INFO] 💬 [MESSAGE] From Madhav in room emergency: fguHSGD
+[2025-04-10T20:53:28.452Z] [INFO] Sending message 1744318408452-1972d4cd6d to sender a5BtP1fIl_DoWBeJAAAD
+[2025-04-10T20:53:28.454Z] [INFO] Broadcasting message 1744318408452-1972d4cd6d to room emergency
+[2025-04-10T20:53:38.318Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T20:53:38.319Z] [INFO] 🚪 User Madhav joining room: search-rescue
+[2025-04-10T20:53:38.327Z] [INFO] User Madhav leaving room: search-rescue
+[2025-04-10T20:53:38.329Z] [INFO] 🚪 User Madhav joining room: search-rescue
+[2025-04-10T20:53:38.424Z] [INFO] Sent 1 messages to Madhav for room search-rescue
+[2025-04-10T20:53:38.443Z] [INFO] Sent 1 messages to Madhav for room search-rescue
+[2025-04-10T20:53:38.701Z] [INFO] User Madhav leaving room: search-rescue
+[2025-04-10T20:53:38.703Z] [INFO] 🚪 User Madhav joining room: search-rescue
+[2025-04-10T20:53:38.810Z] [INFO] Sent 1 messages to Madhav for room search-rescue
+[2025-04-10T20:53:40.512Z] [INFO] 🔌 Socket disconnected: foWnCAjG-MuCx0KwAAAB
+[2025-04-10T20:53:40.719Z] [INFO] ✨ New socket connection: V3y1FDrj8bCMPiCCAAAF
+[2025-04-10T20:53:40.720Z] [INFO] 🧑 User connected: Madhav (V3y1FDrj8bCMPiCCAAAF)
+[2025-04-10T20:53:41.730Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:53:41.737Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T20:53:41.738Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:53:41.840Z] [INFO] Sent 3 messages to Madhav for room emergency
+[2025-04-10T20:53:41.843Z] [INFO] Sent 3 messages to Madhav for room emergency
+[2025-04-10T20:53:47.002Z] [INFO] 💬 [MESSAGE] From Madhav in room emergency: EFFF
+[2025-04-10T20:53:47.005Z] [INFO] Sending message 1744318427005-ae3e0d9da3 to sender V3y1FDrj8bCMPiCCAAAF
+[2025-04-10T20:53:47.008Z] [INFO] Broadcasting message 1744318427005-ae3e0d9da3 to room emergency
+[2025-04-10T20:54:00.731Z] [INFO] 💬 [MESSAGE] From Madhav in room emergency: FFW
+[2025-04-10T20:54:00.732Z] [INFO] Sending message 1744318440732-33c0d4ae7e to sender a5BtP1fIl_DoWBeJAAAD
+[2025-04-10T20:54:00.733Z] [INFO] Broadcasting message 1744318440732-33c0d4ae7e to room emergency
+[2025-04-10T20:54:05.621Z] [INFO] 💬 [MESSAGE] From Madhav in room emergency: WFFWAW
+[2025-04-10T20:54:05.623Z] [INFO] Sending message 1744318445623-444ce288ac to sender V3y1FDrj8bCMPiCCAAAF
+[2025-04-10T20:54:05.627Z] [INFO] Broadcasting message 1744318445623-444ce288ac to room emergency
+[2025-04-10T20:55:37.522Z] [INFO] ==== Server started ====
+[2025-04-10T20:55:37.526Z] [INFO] Server running on port 3000
+[2025-04-10T20:55:37.527Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T20:55:37.528Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T20:55:37.530Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T20:55:37.840Z] [INFO] Test users created successfully
+[2025-04-10T20:55:38.709Z] [INFO] ✨ New socket connection: 5s7uRwmgKi3JgV8JAAAB
+[2025-04-10T20:55:38.710Z] [INFO] 🧑 User connected: Madhav (5s7uRwmgKi3JgV8JAAAB)
+[2025-04-10T20:55:38.718Z] [INFO] ✨ New socket connection: z4A4QIi3dJxX_Uk7AAAD
+[2025-04-10T20:55:38.720Z] [INFO] 🧑 User connected: Madhav (z4A4QIi3dJxX_Uk7AAAD)
+[2025-04-10T20:55:39.673Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:55:39.674Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:55:39.777Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:55:39.781Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:56:53.530Z] [INFO] ==== Server started ====
+[2025-04-10T20:56:53.533Z] [INFO] Server running on port 3000
+[2025-04-10T20:56:53.533Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T20:56:53.534Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T20:56:53.535Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T20:56:53.694Z] [INFO] ✨ New socket connection: tAD-iWdDdLA3GyHIAAAB
+[2025-04-10T20:56:53.695Z] [INFO] 🧑 User connected: Madhav (tAD-iWdDdLA3GyHIAAAB)
+[2025-04-10T20:56:53.907Z] [INFO] Test users created successfully
+[2025-04-10T20:56:54.211Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:56:54.325Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:56:54.709Z] [INFO] ✨ New socket connection: w0TqCrr9RlPdL0FLAAAD
+[2025-04-10T20:56:54.713Z] [INFO] 🧑 User connected: Madhav (w0TqCrr9RlPdL0FLAAAD)
+[2025-04-10T20:56:55.675Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T20:56:55.784Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T20:58:13.641Z] [INFO] 🔌 Socket disconnected: tAD-iWdDdLA3GyHIAAAB, reason: transport close
+[2025-04-10T20:58:14.620Z] [INFO] 🔌 Socket disconnected: w0TqCrr9RlPdL0FLAAAD, reason: transport close
+[2025-04-10T20:59:08.599Z] [INFO] ==== Server started ====
+[2025-04-10T20:59:08.609Z] [INFO] Server running on port 3000
+[2025-04-10T20:59:08.610Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T20:59:08.611Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T20:59:08.615Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T20:59:09.043Z] [INFO] Test users created successfully
+[2025-04-10T21:02:30.147Z] [INFO] ==== Server started ====
+[2025-04-10T21:02:30.151Z] [INFO] Server running on port 3000
+[2025-04-10T21:02:30.154Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T21:02:30.157Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T21:02:30.158Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T21:02:30.351Z] [INFO] Test users created successfully 
+[2025-04-10T21:02:53.844Z] [INFO] ==== Server started ====
+[2025-04-10T21:02:53.848Z] [INFO] Server running on port 3000
+[2025-04-10T21:02:53.850Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T21:02:53.851Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T21:02:53.852Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T21:02:54.061Z] [INFO] Test users created successfully 
+[2025-04-10T21:03:16.631Z] [INFO] Server starting {
+  startTime: '2025-04-10T21:03:16.620Z',
+  port: 3000,
+  environment: 'development',
+  system: {
+    hostname: 'DESKTOP-8UJVAGE',
+    platform: 'win32',
+    arch: 'x64',
+    cpus: 8,
+    memory: '8 GB',
+    node: 'v22.14.0'
+  },
+  logs: {
+    paths: {
+      main: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log',
+      structured: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured'
+    },
+    writable: true
+  },
+  options: {
+    corsOrigin: 'http://localhost:5173',
+    socketTimeout: 30000,
+    iosPingInterval: 15000
+  }
+}
+[2025-04-10T21:03:16.636Z] [INFO] ==== Server started at 2025-04-10T21:03:16.620Z ====
+[2025-04-10T21:03:16.637Z] [INFO] Server running on port 3000
+[2025-04-10T21:03:16.638Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T21:03:16.639Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T21:03:16.640Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T21:03:16.640Z] [INFO] Structured logs in C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\structured
+[2025-04-10T21:03:16.801Z] [INFO] Test users created successfully 
+[2025-04-10T21:03:24.569Z] [INFO] Server starting {
+  startTime: '2025-04-10T21:03:24.555Z',
+  port: 3000,
+  environment: 'development',
+  system: {
+    hostname: 'DESKTOP-8UJVAGE',
+    platform: 'win32',
+    arch: 'x64',
+    cpus: 8,
+    memory: '8 GB',
+    node: 'v22.14.0'
+  },
+  logs: {
+    paths: {
+      main: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log',
+      structured: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured'
+    },
+    writable: true
+  },
+  options: {
+    corsOrigin: 'http://localhost:5173',
+    socketTimeout: 30000,
+    iosPingInterval: 15000
+  }
+}
+[2025-04-10T21:03:24.581Z] [INFO] ==== Server started at 2025-04-10T21:03:24.555Z ====
+[2025-04-10T21:03:24.587Z] [INFO] Server running on port 3000
+[2025-04-10T21:03:24.588Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T21:03:24.590Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T21:03:24.591Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T21:03:24.593Z] [INFO] Structured logs in C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\structured
+[2025-04-10T21:03:24.920Z] [INFO] Test users created successfully 
+[2025-04-10T21:06:09.749Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T21:06:09.751Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T21:06:09.753Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T21:06:09.766Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T21:06:09.772Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T21:06:09.775Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T21:06:09.856Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T21:06:09.861Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T21:06:09.877Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T21:06:09.883Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T21:06:17.768Z] [INFO] 🔌 Socket disconnected: Z6GuugOjwlfjqBCdAAAD, reason: transport close
+[2025-04-10T21:06:17.783Z] [INFO] 🔌 Socket disconnected: oOsQSyK0Fd8BwB6eAAAB, reason: transport close
+[2025-04-10T21:06:19.433Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T21:06:19.456Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T21:06:19.461Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T21:06:19.555Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T21:06:19.567Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T21:06:20.719Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T21:06:20.721Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T21:06:20.832Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T21:06:21.725Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T21:06:21.732Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T21:06:21.734Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T21:06:21.831Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T21:06:21.852Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T21:06:53.870Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T21:06:53.874Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T21:06:53.876Z] [INFO] Creating new room: medical
+[2025-04-10T21:06:53.884Z] [INFO] User Madhav leaving room: medical
+[2025-04-10T21:06:53.887Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T21:06:53.990Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-10T21:06:53.993Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-10T21:06:54.214Z] [INFO] User Madhav leaving room: medical
+[2025-04-10T21:06:54.218Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T21:06:54.322Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-10T21:06:58.372Z] [INFO] 💬 [MESSAGE] From Madhav in room medical: wdqsyhahvxjashvcbxzhjbacxnz 
+[2025-04-10T21:06:58.375Z] [INFO] Sending message 1744319218374-f3c7464f71 to sender ujkS3vC3cpquItZTAAAF 
+[2025-04-10T21:06:58.376Z] [INFO] Broadcasting message 1744319218374-f3c7464f71 to room medical 
+[2025-04-10T21:07:03.523Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T21:07:03.529Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T21:07:03.555Z] [INFO] User Madhav leaving room: medical
+[2025-04-10T21:07:03.558Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T21:07:03.644Z] [INFO] Sent 2 messages to Madhav for room medical
+[2025-04-10T21:07:03.673Z] [INFO] Sent 2 messages to Madhav for room medical
+[2025-04-10T21:07:03.880Z] [INFO] User Madhav leaving room: medical
+[2025-04-10T21:07:03.882Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T21:07:03.997Z] [INFO] Sent 2 messages to Madhav for room medical
+[2025-04-10T21:07:12.379Z] [INFO] 💬 [MESSAGE] From Madhav in room medical: hello how are you 
+[2025-04-10T21:07:12.382Z] [INFO] Sending message 1744319232381-c1a43d0295 to sender 5f8EOxeGaUgZh0ocAAAH 
+[2025-04-10T21:07:12.384Z] [INFO] Broadcasting message 1744319232381-c1a43d0295 to room medical 
+[2025-04-10T22:10:19.498Z] [INFO] 🔌 Socket disconnected: ujkS3vC3cpquItZTAAAF, reason: transport close
+[2025-04-10T22:10:19.653Z] [INFO] 🔌 Socket disconnected: 5f8EOxeGaUgZh0ocAAAH, reason: transport error
+[2025-04-10T22:35:24.792Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T22:35:25.423Z] [INFO] Sent 3 messages to Madhav for room medical
+[2025-04-10T22:35:45.292Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T22:35:45.901Z] [INFO] Sent 3 messages to Madhav for room medical
+[2025-04-10T22:55:54.201Z] [INFO] Server starting {
+  startTime: '2025-04-10T22:55:54.188Z',
+  port: 3000,
+  environment: 'development',
+  system: {
+    hostname: 'DESKTOP-8UJVAGE',
+    platform: 'win32',
+    arch: 'x64',
+    cpus: 8,
+    memory: '8 GB',
+    node: 'v22.14.0'
+  },
+  logs: {
+    paths: {
+      main: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log',
+      structured: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured'
+    },
+    writable: true
+  },
+  options: {
+    corsOrigin: 'http://localhost:5173',
+    socketTimeout: 30000,
+    iosPingInterval: 15000
+  }
+}
+[2025-04-10T22:55:54.261Z] [INFO] ==== Server started at 2025-04-10T22:55:54.188Z ====
+[2025-04-10T22:55:54.263Z] [INFO] Server running on port 3000
+[2025-04-10T22:55:54.264Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T22:55:54.266Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T22:55:54.270Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T22:55:54.273Z] [INFO] Structured logs in C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\structured
+[2025-04-10T22:55:54.921Z] [INFO] Test users created successfully 
+[2025-04-10T22:55:55.661Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T22:55:55.672Z] [INFO] Creating new room: medical
+[2025-04-10T22:55:55.677Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T22:55:55.777Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-10T22:55:55.783Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-10T22:56:16.782Z] [INFO] Server starting {
+  startTime: '2025-04-10T22:56:16.771Z',
+  port: 3000,
+  environment: 'development',
+  system: {
+    hostname: 'DESKTOP-8UJVAGE',
+    platform: 'win32',
+    arch: 'x64',
+    cpus: 8,
+    memory: '8 GB',
+    node: 'v22.14.0'
+  },
+  logs: {
+    paths: {
+      main: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log',
+      structured: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured'
+    },
+    writable: true
+  },
+  options: {
+    corsOrigin: 'http://localhost:5173',
+    socketTimeout: 30000,
+    iosPingInterval: 15000
+  }
+}
+[2025-04-10T22:56:16.792Z] [INFO] ==== Server started at 2025-04-10T22:56:16.771Z ====
+[2025-04-10T22:56:16.802Z] [INFO] Server running on port 3000
+[2025-04-10T22:56:16.803Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T22:56:16.804Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T22:56:16.806Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T22:56:16.807Z] [INFO] Structured logs in C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\structured
+[2025-04-10T22:56:17.585Z] [INFO] Server starting {
+  startTime: '2025-04-10T22:56:17.580Z',
+  port: 3000,
+  environment: 'development',
+  system: {
+    hostname: 'DESKTOP-8UJVAGE',
+    platform: 'win32',
+    arch: 'x64',
+    cpus: 8,
+    memory: '8 GB',
+    node: 'v22.14.0'
+  },
+  logs: {
+    paths: {
+      main: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log',
+      structured: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured'
+    },
+    writable: true
+  },
+  options: {
+    corsOrigin: 'http://localhost:5173',
+    socketTimeout: 30000,
+    iosPingInterval: 15000
+  }
+}
+[2025-04-10T22:56:17.594Z] [INFO] ==== Server started at 2025-04-10T22:56:17.580Z ====
+[2025-04-10T22:56:17.595Z] [INFO] Server running on port 3000
+[2025-04-10T22:56:17.596Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T22:56:17.597Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T22:56:17.598Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T22:56:17.599Z] [INFO] Structured logs in C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\structured
+[2025-04-10T22:56:17.814Z] [INFO] Test users created successfully 
+[2025-04-10T22:56:18.667Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T22:56:18.669Z] [INFO] Creating new room: medical
+[2025-04-10T22:56:18.786Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-10T22:56:19.676Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T22:56:19.786Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-10T22:56:40.169Z] [INFO] Server starting {
+  startTime: '2025-04-10T22:56:40.160Z',
+  port: 3000,
+  environment: 'development',
+  system: {
+    hostname: 'DESKTOP-8UJVAGE',
+    platform: 'win32',
+    arch: 'x64',
+    cpus: 8,
+    memory: '8 GB',
+    node: 'v22.14.0'
+  },
+  logs: {
+    paths: {
+      main: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log',
+      structured: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured'
+    },
+    writable: true
+  },
+  options: {
+    corsOrigin: 'http://localhost:5173',
+    socketTimeout: 30000,
+    iosPingInterval: 15000
+  }
+}
+[2025-04-10T22:56:40.178Z] [INFO] ==== Server started at 2025-04-10T22:56:40.160Z ====
+[2025-04-10T22:56:40.179Z] [INFO] Server running on port 3000
+[2025-04-10T22:56:40.180Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T22:56:40.181Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T22:56:40.182Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T22:56:40.183Z] [INFO] Structured logs in C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\structured
+[2025-04-10T22:56:40.466Z] [INFO] Test users created successfully 
+[2025-04-10T22:56:41.173Z] [INFO] Server starting {
+  startTime: '2025-04-10T22:56:41.165Z',
+  port: 3000,
+  environment: 'development',
+  system: {
+    hostname: 'DESKTOP-8UJVAGE',
+    platform: 'win32',
+    arch: 'x64',
+    cpus: 8,
+    memory: '8 GB',
+    node: 'v22.14.0'
+  },
+  logs: {
+    paths: {
+      main: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log',
+      structured: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured'
+    },
+    writable: true
+  },
+  options: {
+    corsOrigin: 'http://localhost:5173',
+    socketTimeout: 30000,
+    iosPingInterval: 15000
+  }
+}
+[2025-04-10T22:56:41.178Z] [INFO] ==== Server started at 2025-04-10T22:56:41.165Z ====
+[2025-04-10T22:56:41.178Z] [INFO] Server running on port 3000
+[2025-04-10T22:56:41.179Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T22:56:41.180Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T22:56:41.181Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T22:56:41.182Z] [INFO] Structured logs in C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\structured
+[2025-04-10T22:56:41.445Z] [INFO] Test users created successfully 
+[2025-04-10T22:56:43.801Z] [INFO] Server starting {
+  startTime: '2025-04-10T22:56:43.795Z',
+  port: 3000,
+  environment: 'development',
+  system: {
+    hostname: 'DESKTOP-8UJVAGE',
+    platform: 'win32',
+    arch: 'x64',
+    cpus: 8,
+    memory: '8 GB',
+    node: 'v22.14.0'
+  },
+  logs: {
+    paths: {
+      main: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log',
+      structured: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured'
+    },
+    writable: true
+  },
+  options: {
+    corsOrigin: 'http://localhost:5173',
+    socketTimeout: 30000,
+    iosPingInterval: 15000
+  }
+}
+[2025-04-10T22:56:43.805Z] [INFO] ==== Server started at 2025-04-10T22:56:43.795Z ====
+[2025-04-10T22:56:43.808Z] [INFO] Server running on port 3000
+[2025-04-10T22:56:43.810Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T22:56:43.811Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T22:56:43.812Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T22:56:43.813Z] [INFO] Structured logs in C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\structured
+[2025-04-10T22:56:44.047Z] [INFO] Test users created successfully 
+[2025-04-10T22:56:44.657Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T22:56:44.659Z] [INFO] Creating new room: medical
+[2025-04-10T22:56:44.663Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T22:56:44.769Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-10T22:56:44.777Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-10T22:57:43.154Z] [INFO] Server starting {
+  startTime: '2025-04-10T22:57:43.148Z',
+  port: 3000,
+  environment: 'development',
+  system: {
+    hostname: 'DESKTOP-8UJVAGE',
+    platform: 'win32',
+    arch: 'x64',
+    cpus: 8,
+    memory: '8 GB',
+    node: 'v22.14.0'
+  },
+  logs: {
+    paths: {
+      main: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log',
+      structured: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured'
+    },
+    writable: true
+  },
+  options: {
+    corsOrigin: 'http://localhost:5173',
+    socketTimeout: 30000,
+    iosPingInterval: 15000
+  }
+}
+[2025-04-10T22:57:43.159Z] [INFO] ==== Server started at 2025-04-10T22:57:43.148Z ====
+[2025-04-10T22:57:43.160Z] [INFO] Server running on port 3000
+[2025-04-10T22:57:43.161Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-10T22:57:43.162Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-10T22:57:43.162Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-10T22:57:43.163Z] [INFO] Structured logs in C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\structured
+[2025-04-10T22:57:43.524Z] [INFO] Test users created successfully 
+[2025-04-10T22:57:44.679Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T22:57:44.681Z] [INFO] Creating new room: medical
+[2025-04-10T22:57:44.686Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T22:57:44.786Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-10T22:57:44.796Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-10T22:57:47.671Z] [INFO] 🔌 Socket disconnected: gaSsdbtawjeC6YPAAAAB, reason: client namespace disconnect
+[2025-04-10T22:57:48.669Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-10T22:57:48.781Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-10T23:01:52.105Z] [INFO] 🔌 Socket disconnected: E0pC7PJTSd9POQsVAAAF, reason: transport close
+[2025-04-10T23:01:52.911Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T23:01:52.913Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T23:01:52.923Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T23:01:53.021Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T23:01:53.026Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T23:01:53.960Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T23:01:53.973Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T23:01:54.086Z] [INFO] Sent 1 messages to Madhav for room emergency
+[2025-04-10T23:01:57.394Z] [INFO] 💬 [MESSAGE] From Madhav in room emergency: 🔥 
+[2025-04-10T23:01:57.405Z] [INFO] Sending message 1744326117398-6d1e5a77bd to sender LAp1bqv-EXR0XEp1AAAH 
+[2025-04-10T23:01:57.407Z] [INFO] Broadcasting message 1744326117398-6d1e5a77bd to room emergency 
+[2025-04-10T23:02:01.004Z] [INFO] 🔌 Socket disconnected: SdN0STbALwdJa212AAAD, reason: transport close
+[2025-04-10T23:02:03.008Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T23:02:03.019Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T23:02:03.025Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T23:02:03.122Z] [INFO] Sent 2 messages to Madhav for room emergency
+[2025-04-10T23:02:03.140Z] [INFO] Sent 2 messages to Madhav for room emergency
+[2025-04-10T23:02:08.850Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T23:02:08.859Z] [INFO] 🚪 User Madhav joining room: search-rescue
+[2025-04-10T23:02:08.862Z] [INFO] Creating new room: search-rescue
+[2025-04-10T23:02:08.864Z] [INFO] User Madhav leaving room: search-rescue
+[2025-04-10T23:02:08.868Z] [INFO] 🚪 User Madhav joining room: search-rescue
+[2025-04-10T23:02:08.968Z] [INFO] Sent 1 messages to Madhav for room search-rescue
+[2025-04-10T23:02:08.972Z] [INFO] Sent 1 messages to Madhav for room search-rescue
+[2025-04-10T23:02:09.186Z] [INFO] User Madhav leaving room: search-rescue
+[2025-04-10T23:02:09.202Z] [INFO] 🚪 User Madhav joining room: search-rescue
+[2025-04-10T23:02:09.313Z] [INFO] Sent 1 messages to Madhav for room search-rescue
+[2025-04-10T23:02:09.859Z] [INFO] User Madhav leaving room: search-rescue
+[2025-04-10T23:02:09.862Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T23:02:09.865Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T23:02:09.872Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T23:02:09.965Z] [INFO] Sent 2 messages to Madhav for room emergency
+[2025-04-10T23:02:09.980Z] [INFO] Sent 2 messages to Madhav for room emergency
+[2025-04-10T23:02:10.217Z] [INFO] User Madhav leaving room: emergency
+[2025-04-10T23:02:10.221Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-10T23:02:10.338Z] [INFO] Sent 2 messages to Madhav for room emergency
+[2025-04-10T23:02:15.625Z] [INFO] 💬 [MESSAGE] From Madhav in room emergency: 🎉🎉🎉🎉 
+[2025-04-10T23:02:15.628Z] [INFO] Sending message 1744326135627-a1db9d537a to sender F0Gy5LjrIXmHJyKIAAAJ 
+[2025-04-10T23:02:15.637Z] [INFO] Broadcasting message 1744326135627-a1db9d537a to room emergency 
+[2025-04-10T23:52:34.878Z] [INFO] 🔌 Socket disconnected: F0Gy5LjrIXmHJyKIAAAJ, reason: transport close
+[2025-04-11T01:34:40.021Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-11T01:34:40.024Z] [INFO] User Madhav leaving room: emergency
+[2025-04-11T01:34:40.050Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-11T01:34:40.126Z] [INFO] Sent 3 messages to Madhav for room emergency
+[2025-04-11T01:34:40.157Z] [INFO] Sent 3 messages to Madhav for room emergency
+[2025-04-11T01:40:44.629Z] [INFO] User Madhav leaving room: emergency
+[2025-04-11T01:40:44.642Z] [INFO] 🚪 User Madhav joining room: search-rescue
+[2025-04-11T01:40:44.644Z] [INFO] User Madhav leaving room: search-rescue
+[2025-04-11T01:40:44.670Z] [INFO] 🚪 User Madhav joining room: search-rescue
+[2025-04-11T01:40:44.747Z] [INFO] Sent 1 messages to Madhav for room search-rescue
+[2025-04-11T01:40:44.777Z] [INFO] Sent 1 messages to Madhav for room search-rescue
+[2025-04-11T01:40:45.026Z] [INFO] User Madhav leaving room: search-rescue
+[2025-04-11T01:40:45.050Z] [INFO] 🚪 User Madhav joining room: search-rescue
+[2025-04-11T01:40:45.162Z] [INFO] Sent 1 messages to Madhav for room search-rescue
+[2025-04-11T01:40:45.881Z] [INFO] User Madhav leaving room: search-rescue
+[2025-04-11T01:40:45.885Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-11T01:40:45.889Z] [INFO] User Madhav leaving room: emergency
+[2025-04-11T01:40:45.893Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-11T01:40:45.989Z] [INFO] Sent 3 messages to Madhav for room emergency
+[2025-04-11T01:40:45.999Z] [INFO] Sent 3 messages to Madhav for room emergency
+[2025-04-11T01:40:46.244Z] [INFO] User Madhav leaving room: emergency
+[2025-04-11T01:40:46.252Z] [INFO] 🚪 User Madhav joining room: emergency
+[2025-04-11T01:40:46.358Z] [INFO] Sent 3 messages to Madhav for room emergency
+[2025-04-11T01:41:30.025Z] [INFO] User Madhav leaving room: emergency
+[2025-04-11T01:41:30.029Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-11T01:41:30.032Z] [INFO] User Madhav leaving room: medical
+[2025-04-11T01:41:30.035Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-11T01:41:30.144Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-11T01:41:30.148Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-11T01:41:30.377Z] [INFO] User Madhav leaving room: medical
+[2025-04-11T01:41:30.391Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-11T01:41:30.503Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-11T01:42:30.991Z] [INFO] 💬 [MESSAGE] From Madhav in room medical: fdx 
+[2025-04-11T01:42:31.006Z] [INFO] Sending message 1744335751003-45057ac476 to sender FgddhXEjA-i957mnAAAL 
+[2025-04-11T01:42:31.010Z] [INFO] Broadcasting message 1744335751003-45057ac476 to room medical 
+[2025-04-11T01:42:36.026Z] [INFO] User Madhav leaving room: emergency
+[2025-04-11T01:42:36.028Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-11T01:42:36.045Z] [INFO] User Madhav leaving room: medical
+[2025-04-11T01:42:36.048Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-11T01:42:36.137Z] [INFO] Sent 2 messages to Madhav for room medical
+[2025-04-11T01:42:36.153Z] [INFO] Sent 2 messages to Madhav for room medical
+[2025-04-11T01:42:36.390Z] [INFO] User Madhav leaving room: medical
+[2025-04-11T01:42:36.395Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-11T01:42:36.497Z] [INFO] Sent 2 messages to Madhav for room medical
+[2025-04-11T01:44:50.238Z] [INFO] 🔌 Socket disconnected: LAp1bqv-EXR0XEp1AAAH, reason: client namespace disconnect
+[2025-04-11T01:44:51.073Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-11T01:44:51.177Z] [INFO] Sent 2 messages to Madhav for room medical
+[2025-04-11T02:00:54.385Z] [INFO] 🔌 Socket disconnected: pIFLuDNnbNx1ixwzAAAN, reason: client namespace disconnect
+[2025-04-11T02:00:55.203Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-11T02:00:55.308Z] [INFO] Sent 2 messages to Madhav for room medical
+[2025-04-11T03:05:39.458Z] [INFO] Server starting {
+  startTime: '2025-04-11T03:05:39.449Z',
+  port: 3000,
+  environment: 'development',
+  system: {
+    hostname: 'DESKTOP-8UJVAGE',
+    platform: 'win32',
+    arch: 'x64',
+    cpus: 8,
+    memory: '8 GB',
+    node: 'v22.14.0'
+  },
+  logs: {
+    paths: {
+      main: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\chat.log',
+      structured: 'C:\\Users\\DELL\\OneDrive\\Desktop\\New folder (4)\\Backend\\logs\\structured'
+    },
+    writable: true
+  },
+  options: {
+    corsOrigin: 'http://localhost:5173',
+    socketTimeout: 30000,
+    iosPingInterval: 15000
+  }
+}
+[2025-04-11T03:05:39.466Z] [INFO] ==== Server started at 2025-04-11T03:05:39.449Z ====
+[2025-04-11T03:05:39.467Z] [INFO] Server running on port 3000
+[2025-04-11T03:05:39.467Z] [INFO] WebSocket server ready at ws://localhost:3000
+[2025-04-11T03:05:39.468Z] [INFO] Allowing CORS from http://localhost:5173
+[2025-04-11T03:05:39.468Z] [INFO] Logs being written to C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\chat.log
+[2025-04-11T03:05:39.469Z] [INFO] Structured logs in C:\Users\DELL\OneDrive\Desktop\New folder (4)\Backend\logs\structured
+[2025-04-11T03:05:39.638Z] [INFO] Test users created successfully 
+[2025-04-11T03:05:40.171Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-11T03:05:40.172Z] [INFO] Creating new room: medical
+[2025-04-11T03:05:40.291Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-11T03:05:40.553Z] [INFO] 🚪 User Madhav joining room: medical
+[2025-04-11T03:05:40.662Z] [INFO] Sent 1 messages to Madhav for room medical
+[2025-04-11T03:05:41.175Z] [INFO] 🔌 Socket disconnected: fhhM4s-8EzViFIXPAAAD, reason: transport close

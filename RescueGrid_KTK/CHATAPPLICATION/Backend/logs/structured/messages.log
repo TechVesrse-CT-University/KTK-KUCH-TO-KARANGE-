@@ -1,0 +1,60 @@
+====================
+TIMESTAMP: 2025-04-10T21:06:58.374Z
+LEVEL: INFO
+MESSAGE: Message received
+DETAILS:
+  from: Madhav
+  room: medical
+  messagePreview: wdqsyhahvxjashvcbxzhjbacxnz
+  messageId: 1744319218374-f3c7464f71
+  timestamp: 2025-04-10T21:06:58.374Z
+====================
+
+====================
+TIMESTAMP: 2025-04-10T21:07:12.382Z
+LEVEL: INFO
+MESSAGE: Message received
+DETAILS:
+  from: Madhav
+  room: medical
+  messagePreview: hello how are you
+  messageId: 1744319232381-c1a43d0295
+  timestamp: 2025-04-10T21:07:12.381Z
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:01:57.404Z
+LEVEL: INFO
+MESSAGE: Message received
+DETAILS:
+  from: Madhav
+  room: emergency
+  messagePreview: 🔥
+  messageId: 1744326117398-6d1e5a77bd
+  timestamp: 2025-04-10T23:01:57.398Z
+====================
+
+====================
+TIMESTAMP: 2025-04-10T23:02:15.627Z
+LEVEL: INFO
+MESSAGE: Message received
+DETAILS:
+  from: Madhav
+  room: emergency
+  messagePreview: 🎉🎉🎉🎉
+  messageId: 1744326135627-a1db9d537a
+  timestamp: 2025-04-10T23:02:15.627Z
+====================
+
+====================
+TIMESTAMP: 2025-04-11T01:42:31.005Z
+LEVEL: INFO
+MESSAGE: Message received
+DETAILS:
+  from: Madhav
+  room: medical
+  messagePreview: fdx
+  messageId: 1744335751003-45057ac476
+  timestamp: 2025-04-11T01:42:31.004Z
+====================
+
